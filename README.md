@@ -1,1 +1,1 @@
-# BENCHić -  the benchmark for Bosnian, Croatian, Montenegrin, Serbian
+# BENCHić -  the benchmark for Bosnian, Croatian, Montenegrin, and Serbian
