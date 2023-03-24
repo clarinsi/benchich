@@ -18,7 +18,7 @@ This part covers the classifier, trained on web data: first the vocabulary gets 
 ```python
 python web.py
 ```
-performs the training and evaluation on SETimes, Twitter 3 (hr, bs, sr) and Twitter 4 (hr, bs, sr, me) data. The classification reports are output to stdout and predictions are saved in a json file in baseline-compatible format. 
+to perform the training and evaluation on SETimes, Twitter 3 (hr, bs, sr) and Twitter 4 (hr, bs, sr, me) data. The classification reports are output to stdout and predictions are saved in a json file in baseline-compatible format. 
 
 Note that the web data is not included in this repository.
 
