@@ -1,0 +1,12 @@
+The Twitter user dataset for discriminating between Bosnian, Croatian, Montenegrin and Serbian  Twitter-HBS 1.0
+
+http://hdl.handle.net/11356/1482
+
+The Twitter-HBS dataset consists of Twitter users, a label encoding their primarily used language (Bosnian, 
+Croatian, Montenegrin or Serbian) and these users' tweets available at the time of harvesting.
+
+The structure of the JSON file is a list of users, each consisting of the three following items:
+- user (user handle)
+- language (language of the user, either "bs", "hr", "me" or "sr")
+- split (bin the user is part of, either "train", "dev" or "test")
+- tweets (a list of string, each representing a tweet)

@@ -1,0 +1,11 @@
+The news dataset for discriminating between Bosnian, Croatian and Serbian SETimes.HBS 1.0
+
+http://hdl.handle.net/11356/1461
+
+The SETimes.HBS dataset consists of parallel documents written in Bosnian, Croatian and Serbian, harvested
+from the inactive setimes.com website publishing news in the languages of South-Eastern Europe.
+
+The structure of the JSON file is a list of articles, each consisting of the three following items:
+- text (article text)
+- language (language of the article, either "bs", "hr" or "sr")
+- split (bin the article is part of, either "train", "dev" or "test")
