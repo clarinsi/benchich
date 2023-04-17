@@ -1,4 +1,4 @@
-# BENCHić -  the benchmark for Bosnian, Croatian, Montenegrin, and Serbian
+# BENCHić -  the benchmark for Bosnian, Croatian, Montenegrin, Serbian (and friends)
 
 For now we cover two tasks:
 
