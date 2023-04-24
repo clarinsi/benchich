@@ -10,7 +10,8 @@ transliterate all text into the Latin script.
 
 We prepare the classifier in two flavours, for three languages (bs, hr, sr)
 and four languages (bs, hr, me, sr), so that we can evaluate it on all three
-evaluation datasets.
+evaluation datasets. We serialize the 3-class classifier as `clf3.joblib` and
+the 4-class classifier as `clf4.joblib` for future use.
 
 The results show stellar performance on the Twitter dataset, and acceptable
 performance on the SETimes dataset. Our hypothesis is that our training data
