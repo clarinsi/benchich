@@ -9,3 +9,14 @@ This was done for every of the 12 pairs (Croatian-Bosnian, Bosnian-Croatian, ...
 The [script](web.py) runs this training pipeline and evaluates it on Twitter, SETimes, and Twitter3 data (the latter being a subset of Twitter dataset where only Croatian, Serbian, and Bosnian labels are present.)
 
 It was found that compared with the [baseline model](../char_ngram_baseline/README.md) the results are not as good in-domain, but this method seems to be more robust when comparing models, trained on Twitter and evaluated on news articles or vice versa.
+
+
+## New additions:
+
+* A new joblib file was added, allowing for quick evaluation:
+```python
+import joblib
+f = joblib.load("../lang/web/classify.joblib")
+f("U njegovoj pratnji su ministarka turizma Fani Pali-Petralija, zamenik ministra ekonomije Petros Dukas i zamenik ministra inostranih poslova Teodoros Kasimis.")
+# -> 'sr'
+```
