@@ -1,0 +1,500 @@
+{"premise":"Предметот беше спакуван во обвивка со меурчиња.","choice1":"Беше кршлив.","choice2":"Беше мал.","question":"cause","label":0,"idx":0,"changed":false}
+{"premise":"Ги испразнив џебовите.","choice1":"Најдов дел од карта.","choice2":"Најдов оружје.","question":"effect","label":0,"idx":1,"changed":false}
+{"premise":"Термитите ја нападнаа куќата.","choice1":"Термитите ги снема од куќата.","choice2":"Термитите изгризаа сè што беше дрвено во куќата.","question":"effect","label":1,"idx":2,"changed":false}
+{"premise":"Патниците дојдоа до границата.","choice1":"Граничниот полицаец ги провери нивните пасоши.","choice2":"Граничниот полицаец ги обвини за криумчарење.","question":"effect","label":0,"idx":3,"changed":false}
+{"premise":"Канцеларијата беше затворена.","choice1":"Беше празник.","choice2":"Беше лето.","question":"cause","label":0,"idx":4,"changed":false}
+{"premise":"На девојката ѝ снема енергија.","choice1":"Играше дама.","choice2":"Скокаше на јаже.","question":"cause","label":1,"idx":5,"changed":false}
+{"premise":"Жената го изгубила своето место во редот.","choice1":"Повеќе луѓе влегоа во редот.","choice2":"Таа излезе од редот.","question":"cause","label":1,"idx":6,"changed":false}
+{"premise":"Девојката си го штипна носот.","choice1":"Бебето се лигавеше по лигавчето.","choice2":"Бебето ја наполни пелената.","question":"cause","label":1,"idx":7,"changed":false}
+{"premise":"Бендот го свиреше својот хит.","choice1":"Публиката ракоплескаше со музиката.","choice2":"Публиката пристојно слушаше во тишина.","question":"effect","label":0,"idx":8,"changed":false}
+{"premise":"Девојката сакаше да му се заблагодари на својот учител по математика.","choice1":"Девојката остана по часовите за казна.","choice2":"Девојката му донела јаболко на учителот.","question":"effect","label":1,"idx":9,"changed":false}
+{"premise":"Младите кампери се почувствуваа исплашени.","choice1":"Водичот од кампот им раскажа приказна за духови.","choice2":"На логорскиот оган, тие печеа колачиња од бел слез.","question":"cause","label":0,"idx":10,"changed":false}
+{"premise":"Човекот си ја удри главата.","choice1":"Се изгуби во мислите.","choice2":"Доби потрес на мозокот.","question":"effect","label":1,"idx":11,"changed":false}
+{"premise":"Чекот кој го напишав е одбиен.","choice1":"Мојата сметка во банка беше празна.","choice2":"Заработив покачување на платата.","question":"cause","label":0,"idx":12,"changed":false}
+{"premise":"Дојдовното сандаче на човекот беше полнo со несакана електронска пошта.","choice1":"Ја избриша несаканита електронска пошта.","choice2":"Прати групна порака преку електронска пошта.","question":"effect","label":0,"idx":13,"changed":false}
+{"premise":"Морнарот беше ставен во карантин.","choice1":"Беше изложен на болести.","choice2":"Се опорави од болеста.","question":"cause","label":0,"idx":14,"changed":false}
+{"premise":"Девојката го запамети кодот.","choice1":"Си го изрецитира.","choice2":"Заборави да го запише.","question":"cause","label":0,"idx":15,"changed":false}
+{"premise":"Турив вода во чашата.","choice1":"Водата ми ја изгасна жедта.","choice2":"Чашата се наполни.","question":"effect","label":1,"idx":16,"changed":false}
+{"premise":"Човекот молчеше кога неговиот пријател заврши со зборување.","choice1":"Сакаше да го поддржи својот пријател.","choice2":"Размислуваше на зборовите на неговиот пријател.","question":"cause","label":1,"idx":17,"changed":false}
+{"premise":"Несреќата се случи заради мене.","choice1":"Се чувствував виновно.","choice2":"Покренав обвинение.","question":"effect","label":0,"idx":18,"changed":false}
+{"premise":"Синџирот се распадна.","choice1":"Синџирот беше извиткан околу гумата.","choice2":"Имаше скршена алка во синџирот.","question":"cause","label":1,"idx":19,"changed":false}
+{"premise":"Парот се одлучи за компромис.","choice1":"Се уморија од расправии.","choice2":"Избегнуваa расправии за проблемот.","question":"cause","label":0,"idx":20,"changed":false}
+{"premise":"Жената реши да се кандидира за јавна функција.","choice1":"Ангажира менаџер на кампањата.","choice2":"Сведочеше на судот.","question":"effect","label":0,"idx":21,"changed":false}
+{"premise":"Човекот очекуваше ладно време на патувањето.","choice1":"Спакува топла облека во куферот.","choice2":"Патуваше со голем куфер.","question":"effect","label":0,"idx":22,"changed":false}
+{"premise":"Студентот го знаеше одговорот на прашањето.","choice1":"Подигна рака.","choice2":"Забушаваше.","question":"effect","label":0,"idx":23,"changed":false}
+{"premise":"На човекот му се насолзија очите.","choice1":"Прашина му влезе во очите.","choice2":"Стави заштитни наочари.","question":"cause","label":0,"idx":24,"changed":false}
+{"premise":"Натпреварувачката победи на пет натпревари еден по друг.","choice1":"Нејзиниот противник ја обвини за мамење.","choice2":"Нејзиниот противник ја жалеше.","question":"effect","label":0,"idx":25,"changed":false}
+{"premise":"Учителката го искина тестот на ученикот.","choice1":"Го фати ученикот како препишува.","choice2":"Одговорите му беа неточни.","question":"cause","label":0,"idx":26,"changed":false}
+{"premise":"Престанав да зборувам.","choice1":"Го изгубив гласот.","choice2":"Снемав воздух.","question":"cause","label":1,"idx":27,"changed":false}
+{"premise":"Замрзнатата храна се стопи.","choice1":"Ја ставив во микробранова печка.","choice2":"Ја покрив со фолија.","question":"cause","label":0,"idx":28,"changed":false}
+{"premise":"Вработениот глумеше дека е болен.","choice1":"Имаше грчеви во стомакот.","choice2":"Сакаше слободен ден.","question":"cause","label":1,"idx":29,"changed":false}
+{"premise":"Девојчето нурна во базенот.","choice1":"Трчаше околу базенот.","choice2":"Скокна од отскочната даска.","question":"cause","label":1,"idx":30,"changed":false}
+{"premise":"Влезниците зa филмот се распродадоа.","choice1":"Се одржуваше премиерата на филмот.","choice2":"Филмот доби лоши рецензии.","question":"cause","label":0,"idx":31,"changed":false}
+{"premise":"Човекот ослабе.","choice1":"Луѓето го одбегнуваа.","choice2":"Луѓето му даваа комплименти.","question":"effect","label":1,"idx":32,"changed":false}
+{"premise":"Девојката доби плускавци на рацете.","choice1":"Напиша писмо.","choice2":"Се качуваше по јаже.","question":"cause","label":1,"idx":33,"changed":false}
+{"premise":"Циркузантот жонглираше додека возеше моноцикл.","choice1":"Публиката навиваше воодушевувајќи се.","choice2":"Акробатот се заниша на трапезот.","question":"effect","label":0,"idx":34,"changed":false}
+{"premise":"Го изгубив трпението.","choice1":"Мојот пријател доцнеше.","choice2":"Мојот пријател дојде на време.","question":"cause","label":0,"idx":35,"changed":false}
+{"premise":"Завојуваните земји сакаа мир.","choice1":"Развија нуклеарни оружја.","choice2":"Постигнаа договор.","question":"effect","label":1,"idx":36,"changed":false}
+{"premise":"Човекот испи лек за спиење.","choice1":"Стана поспан.","choice2":"Доби температура.","question":"effect","label":0,"idx":37,"changed":false}
+{"premise":"Жената се удри во софата.","choice1":"Ногарката на софата се олабави.","choice2":"Си го повреди коленото.","question":"effect","label":1,"idx":38,"changed":false}
+{"premise":"Момчето го стисна балонот.","choice1":"Балонот пукна.","choice2":"Балонот одлета.","question":"effect","label":0,"idx":39,"changed":false}
+{"premise":"Патниците се пријавија во својата хотелска соба.","choice1":"Ги распакуваа своите куфери.","choice2":"Отидоа на аеродромот.","question":"effect","label":0,"idx":40,"changed":false}
+{"premise":"Гризнав праска.","choice1":"Праската се згмечи.","choice2":"Истече сок.","question":"effect","label":1,"idx":41,"changed":false}
+{"premise":"Рацете ми станаа лепливи.","choice1":"Јадев крофна.","choice2":"Сакав благо.","question":"cause","label":0,"idx":42,"changed":false}
+{"premise":"Ја турнав вратата.","choice1":"Вратата се отвори.","choice2":"Вратата се заклучи.","question":"effect","label":0,"idx":43,"changed":false}
+{"premise":"Активистите ги бојкотираа производите. ","choice1":"Производите беа тестирани заради квалитетот.","choice2":"Производите беа направени од страна на деца.","question":"cause","label":1,"idx":44,"changed":false}
+{"premise":"Направив дупка во ѕидот.","choice1":"Излезе глушец од дупката.","choice2":"Излета многу прашина од дупката.","question":"effect","label":1,"idx":45,"changed":false}
+{"premise":"Жената ѝ завидуваше на својата сестра.","choice1":"Нејзината сестра беше среќна.","choice2":"Нејзината сестра се разведе.","question":"cause","label":0,"idx":46,"changed":false}
+{"premise":"Истурив вино на кошулата.","choice1":"Ставив престилка.","choice2":"Ја преслеков кошулата.","question":"effect","label":1,"idx":47,"changed":false}
+{"premise":"Благајничката ја отвори благајната.","choice1":"Купувачот го бараше својот новчаник.","choice2":"Купувачот ѝ даде пари.","question":"cause","label":1,"idx":48,"changed":false}
+{"premise":"Уличниот музичар привлече толпа луѓе.","choice1":"Луѓето му дадоа ситни пари.","choice2":"Ја набрка толпата.","question":"effect","label":0,"idx":49,"changed":false}
+{"premise":"Малото момче ѝ плачеше на дадилката.","choice1":"Му недостигаа родителите.","choice2":"Беше време за ужина.","question":"cause","label":0,"idx":50,"changed":false}
+{"premise":"Радарот на пилотот забележа невреме.","choice1":"Пилотот се оддалечи од невремето.","choice2":"Пилотот леташе низ невремето.","question":"effect","label":0,"idx":51,"changed":false}
+{"premise":"На дрвото му паѓаа лисјата.","choice1":"На лисјата им се промени бојата. ","choice2":"Лисјата се насобраа на земјата.","question":"effect","label":1,"idx":52,"changed":false}
+{"premise":"Момчето беше нерасположено.","choice1":"Тој одлучи да игра карти со својата сестра.","choice2":"Тој одлучи да изведе невкусна шега на својата сестра.","question":"effect","label":1,"idx":53,"changed":false}
+{"premise":"Детето се жалеше дека мора да оди во тоалет.","choice1":"Неговиот татко му дал газиран сок за пиење.","choice2":"Неговиот татко го застанал автомобилот на бензиска станица.","question":"effect","label":1,"idx":54,"changed":false}
+{"premise":"Детето тури храна за риби во аквариумот.","choice1":"Рибата излезе од аквариумот.","choice2":"Рибите допливаа кон храната.","question":"effect","label":1,"idx":55,"changed":false}
+{"premise":"Политичките ставови на жената се сменија","choice1":"Ја смени партиската припадност.","choice2":"Се вклучи во протест.","question":"effect","label":0,"idx":56,"changed":false}
+{"premise":"Лавабото во бањата беше затнато.","choice1":"Ја отворив славината.","choice2":"Истурив средство за чистење на одвод во него.","question":"effect","label":1,"idx":57,"changed":false}
+{"premise":"Патниците слегоа од возот.","choice1":"Возот пристигна на постојката.","choice2":"Се слушна свирката на возот.","question":"cause","label":0,"idx":58,"changed":false}
+{"premise":"Човекот ја стисна влажната страна на пликот.","choice1":"Стави печат на пликот.","choice2":"Го затвори пликот.","question":"effect","label":1,"idx":59,"changed":false}
+{"premise":"Пријателите изгубија контакт.","choice1":"Уживаа во меѓусебното друштво.","choice2":"Се преселија во различни градови.","question":"cause","label":1,"idx":60,"changed":false}
+{"premise":"Сметководителката лошо управуваше со средствата на компанијата.","choice1":"Доби отказ од работното место.","choice2":"Замина на породилно боледување.","question":"effect","label":0,"idx":61,"changed":false}
+{"premise":"Погледнав на часовникот.","choice1":"Слушнав како часовникот чука.","choice2":"Сакав да го проверам времето.","question":"cause","label":1,"idx":62,"changed":false}
+{"premise":"Ме фати грч во раката.","choice1":"Го напишав есејот на рака.","choice2":"Јас и мојата жена се држевме за раце.","question":"cause","label":0,"idx":63,"changed":false}
+{"premise":"Завртката се затегна.","choice1":"Ја заменив завртката.","choice2":"Го извртев клучот.","question":"cause","label":1,"idx":64,"changed":false}
+{"premise":"Парот потпиша договор за станот.","choice1":"Парот се всели во станот.","choice2":"Градот одлучи да го сруши станот.","question":"effect","label":0,"idx":65,"changed":false}
+{"premise":"Жената седеше надвор на тремот.","choice1":"Сакаше да го гледа зајдисонцето.","choice2":"Мислеше дека виде молња.","question":"cause","label":0,"idx":66,"changed":false}
+{"premise":"Човекот носеше елек за спасување во вода.","choice1":"Не знаеше да плива.","choice2":"Водата беше плитка.","question":"cause","label":0,"idx":67,"changed":false}
+{"premise":"Жената направи печатна грешка во програмата за обработка на текст.","choice1":"Го избриша документот.","choice2":"Го притиснала копчето за бришење.","question":"effect","label":1,"idx":68,"changed":false}
+{"premise":"Девојката се фалела на своите пријатели.","choice1":"Добила лоша оценка.","choice2":"Победила на натпревар.","question":"cause","label":1,"idx":69,"changed":false}
+{"premise":"Тревникот беше каллив.","choice1":"Врнеше преку ноќта.","choice2":"Имаше премногу трева.","question":"cause","label":0,"idx":70,"changed":false}
+{"premise":"Жената се успала.","choice1":"Ја поминала ноќта во хотел.","choice2":"Заборавила да си намести аларм.","question":"cause","label":1,"idx":71,"changed":false}
+{"premise":"Човекот ставил крем за сончање.","choice1":"Седнал под сенка.","choice2":"Отишол на плажа.","question":"cause","label":1,"idx":72,"changed":false}
+{"premise":"Истражувачите ја докажале теоријата.","choice1":"Истражувачите ја повлекле теоријата.","choice2":"Поединци ја прифатиле теоријата.","question":"effect","label":1,"idx":73,"changed":false}
+{"premise":"Навивачите на натпреварот исвиркуваа.","choice1":"Натпреварот се продолжи.","choice2":"Судијата погреши.","question":"cause","label":1,"idx":74,"changed":false}
+{"premise":"Ја внесов мојата комбинација на бравата.","choice1":"Ја заклучив бравата.","choice2":"Бравата се отвори.","question":"effect","label":1,"idx":75,"changed":false}
+{"premise":"Толпата се зголеми.","choice1":"Таткото му даде пари на синот.","choice2":"Таткото го фатил синот за рака.","question":"effect","label":1,"idx":76,"changed":false}
+{"premise":"Снегот го блокираше патот.","choice1":"Го собрав снегот во снежна топка.","choice2":"Го исчистив снегот со лопата.","question":"effect","label":1,"idx":77,"changed":false}
+{"premise":"Кајакарите веслаа.","choice1":"Кајакот дојде до крајбрежјето.","choice2":"Кајакот го удри бран.","question":"effect","label":0,"idx":78,"changed":false}
+{"premise":"Девојката изгуби контрола над нејзиниот велосипед.","choice1":"Го пуштила управувачот.","choice2":"Се удрила во ограда.","question":"effect","label":1,"idx":79,"changed":false}
+{"premise":"Го вклучив вентилаторот.","choice1":"Вода ме испрска на кожата.","choice2":"Почувствував како ладен воздух струи над мене.","question":"effect","label":1,"idx":80,"changed":false}
+{"premise":"Сурферите се вратија на плажа.","choice1":"Беа целосно мокри.","choice2":"Видоа ајкула.","question":"cause","label":1,"idx":81,"changed":false}
+{"premise":"Го извадов одводниот чеп во кадата.","choice1":"Истече вода од кадата.","choice2":"Водата истече на подот.","question":"effect","label":0,"idx":82,"changed":false}
+{"premise":"Сопругот се чувствуваше виновно заради изневерување на својата жена.","choice1":"Ја обвинил за неверство.","choice2":"Ѝ признал дека ја изневерил.","question":"effect","label":1,"idx":83,"changed":false}
+{"premise":"Мастилото на постерот се размачка.","choice1":"Чекав да се исуши мастилото.","choice2":"Истурив вода на постерот.","question":"cause","label":1,"idx":84,"changed":false}
+{"premise":"Детето се разбуди вриштејќи.","choice1":"Имаше кошмар.","choice2":"Уринираше во креветот.","question":"cause","label":0,"idx":85,"changed":false}
+{"premise":"Момчето ги ставило нозете на масата.","choice1":"Неговиот татко седел на масата.","choice2":"Неговиот татко му одржал лекција.","question":"effect","label":1,"idx":86,"changed":false}
+{"premise":"Мојот пријател се сврти кон мене.","choice1":"Го викнав.","choice2":"Го поздравив.","question":"cause","label":0,"idx":87,"changed":false}
+{"premise":"Власта ги угнетуваше граѓаните.","choice1":"Граѓаните организираа револт.","choice2":"Граѓаните се пријавија за гласање.","question":"effect","label":0,"idx":88,"changed":false}
+{"premise":"Момчето беше изгубено во шумата.","choice1":"Постави шатор.","choice2":"Викаше за помош.","question":"effect","label":1,"idx":89,"changed":false}
+{"premise":"Жената отпатувала во странство.","choice1":"Сакала да научи да црта.","choice2":"Сакала да научи за други култури.","question":"cause","label":1,"idx":90,"changed":false}
+{"premise":"Човекот беше љубоморен на колегата.","choice1":"Неговиот колега добил унапредување.","choice2":"Неговиот колега работел до доцна.","question":"cause","label":0,"idx":91,"changed":false}
+{"premise":"Човекот виде вонземјани.","choice1":"Халуцинираше.","choice2":"Медитираше.","question":"cause","label":0,"idx":92,"changed":false}
+{"premise":"Косата на човекот му стана плава.","choice1":"Стави бланш на косата.","choice2":"Стави шампон.","question":"cause","label":0,"idx":93,"changed":false}
+{"premise":"Уметничката содаде нови дела.","choice1":"Ги критизирала своите претходни дела.","choice2":"Добила ненадејна инспирација.","question":"cause","label":1,"idx":94,"changed":false}
+{"premise":"Синот се отсели од дома.","choice1":"Беше отпуштен од војска.","choice2":"Тргна на факултет.","question":"cause","label":1,"idx":95,"changed":false}
+{"premise":"Книгите паднале од полиците.","choice1":"Полиците беа покриени со прашина.","choice2":"Земјотрес ги затресе полиците.","question":"cause","label":1,"idx":96,"changed":false}
+{"premise":"Струјата во мојата куќа се исклучи.","choice1":"Го вклучив светлото.","choice2":"Го ресетирав осигурувачот.","question":"effect","label":1,"idx":97,"changed":false}
+{"premise":"Се возевме во возот на смртта.","choice1":"Изгледаше страшно.","choice2":"Изгледаше забавно.","question":"cause","label":1,"idx":98,"changed":false}
+{"premise":"Кесата со пуканки почна да пука.","choice1":"Ставив масло во кесата.","choice2":"Ја загревав во микробранова печка.","question":"cause","label":1,"idx":99,"changed":false}
+{"premise":"Дрво падна на далноводот.","choice1":"Снема струја во соседството.","choice2":"На прогнозата е предвиден силен ветер.","question":"effect","label":0,"idx":100,"changed":false}
+{"premise":"Говорникот изнесе политички некоректни коментари.","choice1":"Ѝ здосади на публиката.","choice2":"Ја навреди публиката.","question":"effect","label":1,"idx":101,"changed":false}
+{"premise":"Се боцнав со иглата.","choice1":"Капка пот ми падна од лицето.","choice2":"Капка крв потече од мојот прст.","question":"effect","label":1,"idx":102,"changed":false}
+{"premise":"Рибата плуташе на површината од аквариумот.","choice1":"Беше гладна.","choice2":"Беше мртва.","question":"cause","label":1,"idx":103,"changed":false}
+{"premise":"Гласот на човекот звучеше рапаво.","choice1":"Беше настинат.","choice2":"Престана да пуши.","question":"cause","label":0,"idx":104,"changed":false}
+{"premise":"Вратите од лифтот се отворија.","choice1":"Лифтот стигна на определениот кат.","choice2":"Лифтот заглави помеѓу катови.","question":"cause","label":0,"idx":105,"changed":false}
+{"premise":"Тинејџерот се искраде од дома.","choice1":"Ги лажеше своите родители.","choice2":"Родителите му забранија да излегува.","question":"cause","label":1,"idx":106,"changed":false}
+{"premise":"Купатилото се поплави.","choice1":"Тоалетот се прели.","choice2":"Бојлерот се расипа.","question":"cause","label":0,"idx":107,"changed":false}
+{"premise":"Кучето стоеше во близина на својот сопственик.","choice1":"Сопственикот му стави ремен на кучето.","choice2":"Сопственикот го држеше кучето на поводник.","question":"cause","label":1,"idx":108,"changed":false}
+{"premise":"Човекот го виде својот одраз.","choice1":"Застана под разгранетото дрво.","choice2":"Стоеше над мирното езеро.","question":"cause","label":1,"idx":109,"changed":false}
+{"premise":"Го пропуштив повикот од девојка ми.","choice1":"Ѝ се јавив јас.","choice2":"Се сретнавме на вечера.","question":"effect","label":0,"idx":110,"changed":false}
+{"premise":"Семејството ја пребарало населбата.","choice1":"Нивното куче побегнало од дома.","choice2":"Скап накит исчезнал од нивниот дом.","question":"cause","label":0,"idx":111,"changed":false}
+{"premise":"Го видов мојот здив кога издишав.","choice1":"Времето беше студено.","choice2":"Чувствував стегање во градите.","question":"cause","label":0,"idx":112,"changed":false}
+{"premise":"Вработените формираа синдикат.","choice1":"Сакаа подобри услови за работа.","choice2":"Нивниот работодавец им ги зголеми платите.","question":"cause","label":0,"idx":113,"changed":false}
+{"premise":"Испеков пита од јаболка.","choice1":"Гнил мирис се ширеше низ кујната.","choice2":"Пријатен мирис се ширеше низ кујната.","question":"effect","label":1,"idx":114,"changed":false}
+{"premise":"Жената се мачеше да оди.","choice1":"Носеше високи потпетици.","choice2":"Ги извади чевлите.","question":"cause","label":0,"idx":115,"changed":false}
+{"premise":"Пареа излегуваше од тенџерето со вода.","choice1":"Водата вриеше.","choice2":"Го покрив тенџерето.","question":"cause","label":0,"idx":116,"changed":false}
+{"premise":"Сите чорапи ми беа во пералната.","choice1":"Носев сандали.","choice2":"Носев чизми.","question":"effect","label":0,"idx":117,"changed":false}
+{"premise":"Аргументот на политичарот се сметаше за апсурден.","choice1":"Ја изгуби поддршката од гласачите.","choice2":"Беше обвинет за корупција.","question":"effect","label":0,"idx":118,"changed":false}
+{"premise":"Сите беа против венчавање на двојката.","choice1":"Двојката очекуваше дете.","choice2":"Двојката побегна.","question":"effect","label":1,"idx":119,"changed":false}
+{"premise":"Зградата беше посветена на милионерот.","choice1":"Милионерот сакаше зградата да биде срушена.","choice2":"Милионерот контрибуирал средства за нејзина изградба.","question":"cause","label":1,"idx":120,"changed":false}
+{"premise":"Продавачот ја обвини девојката за кражба.","choice1":"Продавачот ја виде девојката како става од робата во својата торба.","choice2":"Продавачот ѝ помогна на девојката да ја најде торбата што ѝ се допаѓа.","question":"cause","label":0,"idx":121,"changed":false}
+{"premise":"Државата ѝ објави војна на соседната територија.","choice1":"Војниците се испратени во борба.","choice2":"Војниците се вратија кај своите семејства.","question":"effect","label":0,"idx":122,"changed":false}
+{"premise":"Судот ја потврди контроверзната пресуда.","choice1":"Изби побуна пред судницата.","choice2":"Брачен пар си размени завети пред судот.","question":"effect","label":0,"idx":123,"changed":false}
+{"premise":"Девојката намирисала дека нешто гори.","choice1":"Таа ги извади колачите од теглата.","choice2":"Ги оставила колачињата во рерната.","question":"cause","label":1,"idx":124,"changed":false}
+{"premise":"Врнеше.","choice1":"Невремето се влоши.","choice2":"Побрзав да влезам внатре.","question":"effect","label":1,"idx":125,"changed":false}
+{"premise":"Зградата беше евакуирана.","choice1":"Лифтот прекина да работи.","choice2":"Алармот за пожар се вклучи.","question":"cause","label":1,"idx":126,"changed":false}
+{"premise":"Таткото се навреди од алкохолозмот на синот.","choice1":"Таткото му купи пиво на синот.","choice2":"Таткото го избрка синот од куќата.","question":"effect","label":1,"idx":127,"changed":false}
+{"premise":"Адвокатката одеше по скалите до својата канцеларија.","choice1":"Секретарката отиде дома до крајот на денот.","choice2":"Лифтот не беше во функција.","question":"cause","label":1,"idx":128,"changed":false}
+{"premise":"Човекот се изнервира од својот пријател.","choice1":"Неговиот пријател го прекина.","choice2":"Пријателот го части ручек.","question":"cause","label":0,"idx":129,"changed":false}
+{"premise":"Девојката му дала пари на благајникот.","choice1":"Благајникот ѝ го дал остатокот од парите на девојката.","choice2":"Благајникот заборави да ѝ даде фискална сметка на девојката.","question":"effect","label":0,"idx":130,"changed":false}
+{"premise":"Жената беше сместена во инвалидска количка.","choice1":"Парализирана е во несреќа.","choice2":"Во болницата влегла на носилки.","question":"cause","label":0,"idx":131,"changed":false}
+{"premise":"Граѓаните ги извадиле државните знамиња пред своите домови.","choice1":"Државата одбележувала ден на независноста.","choice2":"Државата се соочуваше со економски потешкотии.","question":"cause","label":0,"idx":132,"changed":false}
+{"premise":"Тимот изгубил на турнирот.","choice1":"Ги разочараа своите навивачи.","choice2":"Ги воодушевија своите навивачи.","question":"effect","label":0,"idx":133,"changed":false}
+{"premise":"Пријателот ми кажа дека имам хрaна помеѓу забите. ","choice1":"Се чувствував посрамотено.","choice2":"Се чувствував гордо.","question":"effect","label":0,"idx":134,"changed":false}
+{"premise":"Момчето падна на испитот по историја.","choice1":"Внимаваше на час.","choice2":"Заборави да научи.","question":"cause","label":1,"idx":135,"changed":false}
+{"premise":"Зграда во центарот на градот се сруши.","choice1":"Земјотрес го погоди градот.","choice2":"Стапката на криминал во градот се зголеми.","question":"cause","label":0,"idx":136,"changed":false}
+{"premise":"Девојката му раскина на момчето.","choice1":"Ја молеше да му се врати.","choice2":"Го запознала со свoите родители.","question":"effect","label":0,"idx":137,"changed":false}
+{"premise":"Две деца истовремето посегнале по топката.","choice1":"Топката се стркала.","choice2":"Им се судрија главите.","question":"effect","label":1,"idx":138,"changed":false}
+{"premise":"Ракунот ја опустоши кантата за ѓубре.","choice1":"Во кантата за ѓубре имаше картон.","choice2":"Капакот од кантата за ѓубре беше тргнат.","question":"cause","label":1,"idx":139,"changed":false}
+{"premise":"Момчето го изостри моливот.","choice1":"Беше евтин.","choice2":"Беше тап.","question":"cause","label":1,"idx":140,"changed":false}
+{"premise":"Благајникот не сакаше да и врати пари на жената за фустанот.","choice1":"Ја изгубила фискалната.","choice2":"Фустанот не и стоел убаво.","question":"cause","label":0,"idx":141,"changed":false}
+{"premise":"Гребнатинката на мојата кожа беше длабока.","choice1":"Брзо заздрави.","choice2":"Ми остана лузна.","question":"effect","label":1,"idx":142,"changed":false}
+{"premise":"Човекот добил чудни погледи од патниците во возот.","choice1":"Гледаше во подот.","choice2":"Разговараше сам со себе.","question":"cause","label":1,"idx":143,"changed":false}
+{"premise":"Детето остави трошки по подот.","choice1":"Мравите ползеа по трошките.","choice2":"Детето го остави лебот.","question":"effect","label":0,"idx":144,"changed":false}
+{"premise":"Жената ѝ дала марамче на својата сестра.","choice1":"Сестра ѝ ги прекрстила рацете.","choice2":"Сестра ѝ почнала да плаче.","question":"cause","label":1,"idx":145,"changed":false}
+{"premise":"Човекот зеде ментол.","choice1":"Усните му биле испукани.","choice2":"Се загрижил за лошиот здив.","question":"cause","label":1,"idx":146,"changed":false}
+{"premise":"Двојката тргнала порано на претставата.","choice1":"Очекувале сообраќајна гужва околу театарот.","choice2":"Добиле насоки до театарот.","question":"cause","label":0,"idx":147,"changed":false}
+{"premise":"Жената останала дома и отсуствувала од работа.","choice1":"Шефот ја пофалил.","choice2":"Нејзиниот колега ја заменил.","question":"effect","label":1,"idx":148,"changed":false}
+{"premise":"Човекот ја потпишал петицијата на активистите. ","choice1":"Ја поддржувал нивната цел.","choice2":"Ги прогласил за луди.","question":"cause","label":0,"idx":149,"changed":false}
+{"premise":"Срцето на актерот трепереше пред настапот.","choice1":"Имаше трема.","choice2":"Го запамти неговиот текст.","question":"cause","label":0,"idx":150,"changed":false}
+{"premise":"Се изгубив.","choice1":"Ги преброив парите што ги имав.","choice2":"Отворив мапа.","question":"effect","label":1,"idx":151,"changed":false}
+{"premise":"Зрелото овошје остана предолго на сонце.","choice1":"Изедено е.","choice2":"Се насобра.","question":"effect","label":1,"idx":152,"changed":false}
+{"premise":"Автомобилот се расипа.","choice1":"Го стартував.","choice2":"Моторот се прегреа.","question":"cause","label":1,"idx":153,"changed":false}
+{"premise":"Човекот си го повредил грбот. ","choice1":"Посетил психијатар.","choice2":"Останал во кревет неколку дена.","question":"effect","label":1,"idx":154,"changed":false}
+{"premise":"Запалив оган во каминот.","choice1":"Ми снема дрва за огрев.","choice2":"Беше ладно во куќата.","question":"cause","label":1,"idx":155,"changed":false}
+{"premise":"Жената престанала да џогира.","choice1":"Ја фатил грч во бутот.","choice2":"Добила енергија.","question":"cause","label":0,"idx":156,"changed":false}
+{"premise":"Затропав на вратата од соседите.","choice1":"Мојот сосед ме викнаа внатре.","choice2":"Мојот сосед заминаа од куќата.","question":"effect","label":0,"idx":157,"changed":false}
+{"premise":"Жената фрустрирано издиша.","choice1":"Нејзиниот маж не ги разбирал нејзините грижи.","choice2":"Нејзиниот маж ја бакнал на разделување.","question":"cause","label":0,"idx":158,"changed":false}
+{"premise":"Учителот го пофалил ученикот.","choice1":"Ученикот одговорил точно на прашањето.","choice2":"Ученикот се двоумел дали да одговори на прашањето.","question":"cause","label":0,"idx":159,"changed":false}
+{"premise":"Жената снемала јајца.","choice1":"Отишла на фармата.","choice2":"Отишла во супермаркет.","question":"effect","label":1,"idx":160,"changed":false}
+{"premise":"Сретнав стар пријател.","choice1":"Му открив тајна.","choice2":"Го прегрнав.","question":"effect","label":1,"idx":161,"changed":false}
+{"premise":"Жената избегнувала да влезе во езерото.","choice1":"Уловила риба.","choice2":"Изгледало загадено.","question":"cause","label":1,"idx":162,"changed":false}
+{"premise":"Ученикот дошол на настава целиот мокар.","choice1":"Чадорот му се скршил.","choice2":"Му го украле велосипедот.","question":"cause","label":0,"idx":163,"changed":false}
+{"premise":"Се помрдна курсорот на екранот.","choice1":"Корисникот кликнал на глувчето.","choice2":"Корисникот го помрднал глувчето.","question":"cause","label":1,"idx":164,"changed":false}
+{"premise":"Возачката отишла по заобиколен пат.","choice1":"На главната улица се случила несреќа.","choice2":"Го следела камионот пред себе.","question":"cause","label":0,"idx":165,"changed":false}
+{"premise":"Мократа постелнина ја закачив на надворешната сушалка.","choice1":"Постелнината се исуши.","choice2":"Постелнината се извалка.","question":"effect","label":0,"idx":166,"changed":false}
+{"premise":"Жената си ставила наочари за сонце.","choice1":"Сонцето беше силно.","choice2":"Повикала такси.","question":"cause","label":0,"idx":167,"changed":false}
+{"premise":"Човекот гледал во ноќното небо.","choice1":"Сакал да биде лето.","choice2":"Мислел дека е убаво.","question":"cause","label":1,"idx":168,"changed":false}
+{"premise":"Се чувствував исцрпено.","choice1":"Отидов во кревет порано.","choice2":"Останав буден цела ноќ.","question":"effect","label":0,"idx":169,"changed":false}
+{"premise":"Човекот отишол на бербер.","choice1":"Ја растел косата.","choice2":"Косата му била предолга.","question":"cause","label":1,"idx":170,"changed":false}
+{"premise":"Момчето изведувало трикови врз новиот соученик.","choice1":"Момчето му посака добредојде на новиот соученик.","choice2":"На момчето не му се допаѓал новиот соученик.","question":"cause","label":1,"idx":171,"changed":false}
+{"premise":"Ми се пиеше чаша млеко.","choice1":"Јадев колачиња.","choice2":"Печев леб.","question":"cause","label":0,"idx":172,"changed":false}
+{"premise":"Почна да врне.","choice1":"Возачот ги запали предните светла.","choice2":"Возачот возеше во рикверц.","question":"effect","label":0,"idx":173,"changed":false}
+{"premise":"Паркингот од зградата беше празен.","choice1":"Паркирав преку улицата.","choice2":"Се паркирав блиску до влезот.","question":"effect","label":1,"idx":174,"changed":false}
+{"premise":"Писателката го пропуштила рокот за предавање на првата верзија.","choice1":"Се блокирала.","choice2":"Ја направила првата верзија.","question":"cause","label":0,"idx":175,"changed":false}
+{"premise":"Соработникот ми ја спушти слушалката.","choice1":"Барав да разговарам со претпоставен.","choice2":"Му го дадов мојот идентификациски број.","question":"cause","label":0,"idx":176,"changed":false}
+{"premise":"Ветерот дувна низ отворениот прозор.","choice1":"Заѕвони ѕвончето на вратата.","choice2":"Завесите се тресеа.","question":"effect","label":1,"idx":177,"changed":false}
+{"premise":"Струјата во мојата куќа се исклучи.","choice1":"Ја исклучив светилката.","choice2":"Ми прегоре осигурувачот.","question":"cause","label":1,"idx":178,"changed":false}
+{"premise":"Кревачот на тегови застенка.","choice1":"Ги стегна мускулите пред огледало.","choice2":"Ја крена шипката над главата.","question":"cause","label":1,"idx":179,"changed":false}
+{"premise":"Ученикот пробал да го пресмета резултатот во главата.","choice1":"Извадил калкулатор.","choice2":"Се збунил.","question":"effect","label":1,"idx":180,"changed":false}
+{"premise":"Бебето заспало.","choice1":"Таткото ѝ променил пелена.","choice2":"Таткото нежно го нишал бебето.","question":"cause","label":1,"idx":181,"changed":false}
+{"premise":"Девојчето фрлило воден балон врз момчето.","choice1":"Момчето добило потрес на мозокот.","choice2":"Момчето се намокрило.","question":"effect","label":1,"idx":182,"changed":false}
+{"premise":"Фотографот заборавил да го употреби блицот на фотоапаратот.","choice1":"Фотографиите испаднаа матни.","choice2":"Никој на фотографиите не сакал да се насмее.","question":"effect","label":0,"idx":183,"changed":false}
+{"premise":"Ја одбив поканата за роденденската забава.","choice1":"Бев осамен.","choice2":"Бев надвор од градот.","question":"cause","label":1,"idx":184,"changed":false}
+{"premise":"Вежбав.","choice1":"Се чувствував енергично.","choice2":"Бев уплашен.","question":"cause","label":0,"idx":185,"changed":false}
+{"premise":"Стиснав влажен сунѓер.","choice1":"Се натопи во водата.","choice2":"Водата се исцеди од него.","question":"effect","label":1,"idx":186,"changed":false}
+{"premise":"Одморачите оделе со траект до одморалиштето.","choice1":"Одморалиштето било резервирано.","choice2":"Одморалиштето било на островот.","question":"cause","label":1,"idx":187,"changed":false}
+{"premise":"Тенејџерот се тетовирал.","choice1":"Се плашел од игли.","choice2":"Сакал да биде бунтовник.","question":"cause","label":1,"idx":188,"changed":false}
+{"premise":"Непознат автомобил се паркира пред мојата куќа.","choice1":"Станав сомнителен.","choice2":"Повикав полиција.","question":"effect","label":0,"idx":189,"changed":false}
+{"premise":"Криминалецот се предал.","choice1":"Сите докази укажувале на него.","choice2":"Немало докази против него.","question":"cause","label":0,"idx":190,"changed":false}
+{"premise":"Човекот со голема тежина решил да ослабе.","choice1":"Престанал да јаде благо.","choice2":"Избегнувал кофеин.","question":"effect","label":0,"idx":191,"changed":false}
+{"premise":"Девојката зачекорила на мразот.","choice1":"Се лизнала.","choice2":"Се тресела.","question":"effect","label":0,"idx":192,"changed":false}
+{"premise":"Жената имала подочњаци.","choice1":"Била будна цела вечер.","choice2":"Го однела својот син на спиење. ","question":"cause","label":0,"idx":193,"changed":false}
+{"premise":"Лава течела од вулканот.","choice1":"Вулканот еруптирал.","choice2":"Вулканот бил неактивен.","question":"cause","label":0,"idx":194,"changed":false}
+{"premise":"Жената ги обула чевлите.","choice1":"Ги познавала сите на забавата.","choice2":"Сакала да ја напушти забавата.","question":"cause","label":1,"idx":195,"changed":false}
+{"premise":"Му платив на службеникот на патарина.","choice1":"Ме пушти да одам низ патарината.","choice2":"Ме задржа на патарина.","question":"effect","label":0,"idx":196,"changed":false}
+{"premise":"Извршниот директор банкротираше.","choice1":"Продал дел од својата компанија.","choice2":"Го потрошил своето богатство.","question":"cause","label":1,"idx":197,"changed":false}
+{"premise":"Човекот отишол на лекар.","choice1":"Лекарот бил на одмор.","choice2":"Човекот се чувствувал болно.","question":"cause","label":1,"idx":198,"changed":false}
+{"premise":"Излегов од својата соба низ прозорецот.","choice1":"Куќата гoреше.","choice2":"Куќата беше празна.","question":"cause","label":0,"idx":199,"changed":false}
+{"premise":"Прстите на момчето се насобрале.","choice1":"Долго време се туширал.","choice2":"Ставил сапун на рацете.","question":"cause","label":0,"idx":200,"changed":false}
+{"premise":"Го исплукав млекото.","choice1":"Млекото имаше кисел вкус.","choice2":"Устата ми беше сува.","question":"cause","label":0,"idx":201,"changed":false}
+{"premise":"Ми побегна автобусот.","choice1":"Подранив на работа.","choice2":"Задоцнив на работа.","question":"effect","label":1,"idx":202,"changed":false}
+{"premise":"Камионот се судрил со автомобилот.","choice1":"Камионот убрзал.","choice2":"Автомобилот се искршил.","question":"effect","label":1,"idx":203,"changed":false}
+{"premise":"Тимот го наместил натпреварот во своја корист.","choice1":"Тие победиле.","choice2":"Се откажале.","question":"effect","label":0,"idx":204,"changed":false}
+{"premise":"Шишето со газиран сок почна да шушти.","choice1":"Го превртив шишето.","choice2":"Го извртев капачето.","question":"cause","label":1,"idx":205,"changed":false}
+{"premise":"Момчето беше заклучено надвор од куќата.","choice1":"Влегло внатре низ отворениот прозорец.","choice2":"Се качило на кровот.","question":"effect","label":0,"idx":206,"changed":false}
+{"premise":"Заѕвонило ѕвончето.","choice1":"Посетителот чукна на вратата.","choice2":"Жената погледнала низ клучалката од вратата.","question":"effect","label":1,"idx":207,"changed":false}
+{"premise":"Човекот го извалкал својот костум.","choice1":"Го однел на хемиско чистење.","choice2":"Го обесил во својот плакар.","question":"effect","label":0,"idx":208,"changed":false}
+{"premise":"Девојката ја стиснала тубата со паста за заби.","choice1":"Пастата за заби излегла од тубата.","choice2":"Девојката ја исплукала пастата.","question":"effect","label":0,"idx":209,"changed":false}
+{"premise":"Бројот на загинати во војната нагло пораснал.","choice1":"Пацифистите одржале протест.","choice2":"Пацифистите организирале парада.","question":"effect","label":0,"idx":210,"changed":false}
+{"premise":"Девојката ја извадила траката од косата.","choice1":"Ја врзала траката.","choice2":"Траката изгледала детинесто.","question":"cause","label":1,"idx":211,"changed":false}
+{"premise":"Човекот отишол на пластична операција.","choice1":"Остарил.","choice2":"Изгледал помлад.","question":"effect","label":1,"idx":212,"changed":false}
+{"premise":"Пиле излегло од јајцето. ","choice1":"Јајцето се извело. ","choice2":"Го скршив јајцето.","question":"cause","label":0,"idx":213,"changed":false}
+{"premise":"Затвореникот гладувал.","choice1":"Умрел.","choice2":"Побегнал.","question":"effect","label":0,"idx":214,"changed":false}
+{"premise":"Човекот изгубил рамнотежа на скалата.","choice1":"Се качил на скалата.","choice2":"Паднал од скалата.","question":"effect","label":1,"idx":215,"changed":false}
+{"premise":"Детето ждригнало.","choice1":"Се напило голтка газиран сок.","choice2":"Отворило лименка со газиран сок.","question":"cause","label":0,"idx":216,"changed":false}
+{"premise":"Студен провев влезе низ прозорецот.","choice1":"Се опуштив.","choice2":"Се тресев.","question":"effect","label":1,"idx":217,"changed":false}
+{"premise":"Ученичката добила стипендија за на факултет.","choice1":"Нејзините соученици ја почитувале.","choice2":"Имала добри оценки.","question":"cause","label":1,"idx":218,"changed":false}
+{"premise":"Девојката го закачала момчето.","choice1":"Живеела до неговата куќа.","choice2":"Била заљубена во него.","question":"cause","label":1,"idx":219,"changed":false}
+{"premise":"Гладен скитник украл храна.","choice1":"Предизвикал сожалување.","choice2":"Немал пари.","question":"cause","label":1,"idx":220,"changed":false}
+{"premise":"Mу се јавив на мојот пријател да поразговараме.","choice1":"Сакав приватност.","choice2":"Се чувствував осамено.","question":"cause","label":1,"idx":221,"changed":false}
+{"premise":"Човекот ми пружи рака.","choice1":"Се ракував со него.","choice2":"Му удрив шлаканица.","question":"effect","label":0,"idx":222,"changed":false}
+{"premise":"Чучнав. ","choice1":"Огнометот се вивна во воздухот.","choice2":"Фризбито доаѓаше кон мојата глава.","question":"cause","label":1,"idx":223,"changed":false}
+{"premise":"Девојката гризеше нокти.","choice1":"Беше загрижена.","choice2":"Беше изненадена.","question":"cause","label":0,"idx":224,"changed":false}
+{"premise":"Го свртев листот на календарот.","choice1":"Одбележав состанок во календарот.","choice2":"Беше почеток на нов месец.","question":"cause","label":1,"idx":225,"changed":false}
+{"premise":"Сопругот открил дека неговата сопруга го изневерува.","choice1":"Го отпуштил својот адвокат.","choice2":"Побарал развод.","question":"effect","label":1,"idx":226,"changed":false}
+{"premise":"На девојката ѝ паднала гумената топка.","choice1":"Топката потскокнувала.","choice2":"Топката сјаела.","question":"effect","label":0,"idx":227,"changed":false}
+{"premise":"Девојката погрешила на нејзиниот испит.","choice1":"Го погодила одговорот.","choice2":"Го избришала одговорот.","question":"effect","label":1,"idx":228,"changed":false}
+{"premise":"Играчот го соборил спротивникот.","choice1":"Неговиот противник го фати додавањето.","choice2":"Неговиот противник паднал на земја. ","question":"effect","label":1,"idx":229,"changed":false}
+{"premise":"Ги собрав доматите од лозата.","choice1":"Беа зрели.","choice2":"Ги залив со вода.","question":"cause","label":0,"idx":230,"changed":false}
+{"premise":"Човекот сакал да биде романтичен.","choice1":"Се сретнал со неговата бивша девојка на ручек.","choice2":"Ѝ купил бонбониера на неговата девојка.","question":"effect","label":1,"idx":231,"changed":false}
+{"premise":"Живата во термометарот растеше.","choice1":"Ми падна термометарот.","choice2":"Времето се затопли.","question":"cause","label":1,"idx":232,"changed":false}
+{"premise":"Торнадо помина низ градот.","choice1":"Излета покривот на судската зграда.","choice2":"Автопатот стана опасно замрзнат.","question":"effect","label":0,"idx":233,"changed":false}
+{"premise":"Ученикот добил инструкции.","choice1":"Оценките му се поправиле.","choice2":"Препишувал на тестот.","question":"effect","label":0,"idx":234,"changed":false}
+{"premise":"Се чувствував удобно.","choice1":"Клекнав на земјата.","choice2":"Се завиткав во ќебе.","question":"cause","label":1,"idx":235,"changed":false}
+{"premise":"Го исполирав каменот.","choice1":"Стана лизгав.","choice2":"Стана сјаен.","question":"effect","label":1,"idx":236,"changed":false}
+{"premise":"Додадов шеќер во кафето.","choice1":"Кафето имаше силен мирис.","choice2":"Кафето имаше сладок вкус.","question":"effect","label":1,"idx":237,"changed":false}
+{"premise":"Човекот бараше меѓу документите.","choice1":"Доби посекотина од хартија.","choice2":"Ги уништил документите.","question":"effect","label":0,"idx":238,"changed":false}
+{"premise":"Ja удрив шајката со чеканот.","choice1":"Шајката влезе во дрвото.","choice2":"Шајката за'рѓа.","question":"effect","label":0,"idx":239,"changed":false}
+{"premise":"Рибата го гризна конецот.","choice1":"Рибарот ја повлече рибата.","choice2":"Рибарот го прекрои конецот.","question":"effect","label":0,"idx":240,"changed":false}
+{"premise":"Тинејџерката била засрамена да оди на училиште. ","choice1":"Добила мозолче.","choice2":"Ги извадила протезите.","question":"cause","label":0,"idx":241,"changed":false}
+{"premise":"Ми светна изразот на лицето.","choice1":"Добив добри вести.","choice2":"Изгубив трпение.","question":"cause","label":0,"idx":242,"changed":false}
+{"premise":"Си ги избришав рацете со крпа.","choice1":"Крпата беше мокра.","choice2":"Рацете ми беа мокри.","question":"cause","label":1,"idx":243,"changed":false}
+{"premise":"Човекот изгубил рамнотежа на столицата.","choice1":"Столицата се нишала под него.","choice2":"Истурил боја на столицата.","question":"cause","label":0,"idx":244,"changed":false}
+{"premise":"Соиграчите се обвинувале еден со друг.","choice1":"Го изгубиле натпреварот.","choice2":"Тренерот им го откажал тренингот.","question":"cause","label":0,"idx":245,"changed":false}
+{"premise":"Побарав прошка.","choice1":"Се покајав за моите грешки.","choice2":"Ја постигнав мојата цел.","question":"cause","label":0,"idx":246,"changed":false}
+{"premise":"На жената ѝ здосадил мажот на состанокот.","choice1":"Ѝ поставувал прашања за неа.","choice2":"Непрекинато зборувал само за себè си.","question":"cause","label":1,"idx":247,"changed":false}
+{"premise":"Девојката се насмевнала.","choice1":"Образите и поцрвениле.","choice2":"Ѝ се појавија дупчиња на образите.","question":"effect","label":1,"idx":248,"changed":false}
+{"premise":"Непријателскиот брод експлодира.","choice1":"Помина преку мина.","choice2":"Вплови во пристаништето.","question":"cause","label":0,"idx":249,"changed":false}
+{"premise":"Човекот си го дупнал стапалото.","choice1":"Влегол во локва.","choice2":"Згазнал на скршено стакло.","question":"cause","label":1,"idx":250,"changed":false}
+{"premise":"Детективите го запрашија местото на злосторството за отпечатоци од прсти.","choice1":"Го откриле идентитетот на убиецот.","choice2":"Пронашле оружје на местото на криминалот.","question":"effect","label":0,"idx":251,"changed":false}
+{"premise":"Имаше премногу гужва на автопатот.","choice1":"Отидов на заобиколен пат.","choice2":"Барав превоз.","question":"effect","label":0,"idx":252,"changed":false}
+{"premise":"Економијата на државата опадна.","choice1":"Премногу луѓе се разболиле.","choice2":"Многу луѓе се соочиле со невработеност.","question":"effect","label":1,"idx":253,"changed":false}
+{"premise":"Стражарката на преминот им свиреше на децата со свирче.","choice1":"Тие требаше да влезат во сообраќајот од спротивната страна.","choice2":"Ги препознала од своето соседство.","question":"cause","label":0,"idx":254,"changed":false}
+{"premise":"Превртев очи кон мојот пријател.","choice1":"Ми ја кажа вистината.","choice2":"Беше саркастичен.","question":"cause","label":1,"idx":255,"changed":false}
+{"premise":"На автомобилот му снема гориво.","choice1":"Возачот застанал сред патот.","choice2":"Возачот собра автостопер.","question":"effect","label":0,"idx":256,"changed":false}
+{"premise":"Жената добила породилни болки.","choice1":"Бебето беше родено.","choice2":"Жената имала утринска мачнина.","question":"effect","label":0,"idx":257,"changed":false}
+{"premise":"На човекот му летнал шеширот.","choice1":"Го извадил шеширот.","choice2":"Надвор било ветровито.","question":"cause","label":1,"idx":258,"changed":false}
+{"premise":"Девојката отишла на роденденска забава кај соученик од одделението.","choice1":"Добила покана.","choice2":"Купила подарок.","question":"cause","label":0,"idx":259,"changed":false}
+{"premise":"Челото на момчето било топло на допир.","choice1":"Неговата мајка му измерила температура.","choice2":"Неговата мајка го однела во парк.","question":"effect","label":0,"idx":260,"changed":false}
+{"premise":"Човекот се напрскал со парфем.","choice1":"Сакал да ја импресионира девојката на средбата.","choice2":"Си ставил гел на косата.","question":"cause","label":0,"idx":261,"changed":false}
+{"premise":"Струјата во куќата се исклучи.","choice1":"Побарав светилка.","choice2":"Зедов лопата.","question":"effect","label":0,"idx":262,"changed":false}
+{"premise":"Семејството се преселило во поголема куќа.","choice1":"Синот матурирал.","choice2":"Мајката родила близнаци.","question":"cause","label":1,"idx":263,"changed":false}
+{"premise":"Mаратонката држела бавно темпо.","choice1":"Сакала да заштеди енергија.","choice2":"Го видела крајот.","question":"cause","label":0,"idx":264,"changed":false}
+{"premise":"Момчето го клоцнало автоматот.","choice1":"Од автоматот излегле монети.","choice2":"Пакетче со чипс било заглавено.","question":"cause","label":1,"idx":265,"changed":false}
+{"premise":"Кучето на мојот пријател почина.","choice1":"Ги превртив очите.","choice2":"Го прегрнав.","question":"effect","label":1,"idx":266,"changed":false}
+{"premise":"Кредитната картичка на бизнисменот е одбиена.","choice1":"Напишал задолжница.","choice2":"Платил во готово.","question":"effect","label":1,"idx":267,"changed":false}
+{"premise":"Човекот опцул.","choice1":"Си ги исекол ноктите.","choice2":"Се удрил во палецот на ногата.","question":"cause","label":1,"idx":268,"changed":false}
+{"premise":"Човекот бил горд на својот брат.","choice1":"Неговиот брат се скарал со неговите родители.","choice2":"Неговиот брат бил примен на правен факултет.","question":"cause","label":1,"idx":269,"changed":false}
+{"premise":"Девојката сакала да учи за Сончевиот систем.","choice1":"Ја посетила библиотеката.","choice2":"Гледала во ѕвездите.","question":"effect","label":0,"idx":270,"changed":false}
+{"premise":"Постерот се залепил на ѕидот.","choice1":"Го ставив постерот над вратата.","choice2":"Ставив селотејп на внатрешната страна на постерот.","question":"cause","label":1,"idx":271,"changed":false}
+{"premise":"Клиентот ги одобрил плановите на архитектот за зградата.","choice1":"Архитектот ја конструирал зградата. ","choice2":"Архитектот ги прилагодил плановите.","question":"effect","label":0,"idx":272,"changed":false}
+{"premise":"На човекот му паднала лажицата.","choice1":"Му се тресела раката.","choice2":"Ја лижел лажицата.","question":"cause","label":0,"idx":273,"changed":false}
+{"premise":"Извршниот директор на компанијата даде оставка.","choice1":"Управниот одбор ја затвори компанијата.","choice2":"Управниот одбор му најде замена.","question":"effect","label":1,"idx":274,"changed":false}
+{"premise":"Задоцнив на предавање.","choice1":"Седнав во последниот ред.","choice2":"Се приближив кон катедрата.","question":"effect","label":0,"idx":275,"changed":false}
+{"premise":"Човекот е пуштен од затвор.","choice1":"Неговото семејство платило кауција.","choice2":"Нападнал друг затвореник.","question":"cause","label":0,"idx":276,"changed":false}
+{"premise":"Семејството ги изгубило сите свои работи.","choice1":"Ја продале куќата.","choice2":"Куќата им се запалила.","question":"cause","label":1,"idx":277,"changed":false}
+{"premise":"Згазнав врз алуминиумска конзерва.","choice1":"Конзервата беше рециклирана.","choice2":"Конзервата се згмечи.","question":"effect","label":1,"idx":278,"changed":false}
+{"premise":"Девојката се приклучила кон дебатниот клуб.","choice1":"Научила да користи компјутер.","choice2":"Се стекнала со комуникациски вештини.","question":"effect","label":1,"idx":279,"changed":false}
+{"premise":"Расположението ми се поправи.","choice1":"Слушав музика.","choice2":"Ги измив садовите.","question":"cause","label":0,"idx":280,"changed":false}
+{"premise":"Добротворна организација си поставила за цел да собере пари.","choice1":"Ги нахраниле бездомниците.","choice2":"Одржале аукција.","question":"effect","label":1,"idx":281,"changed":false}
+{"premise":"Возот на смртта нурна надолу по стрмниот пад.","choice1":"Патниците се смееја.","choice2":"Патниците вриштеа.","question":"effect","label":1,"idx":282,"changed":false}
+{"premise":"Бев бесен.","choice1":"Го проверив поштенското сандаче кога излегов од дома.","choice2":"Ја треснав вратата кога излегував од куќата.","question":"effect","label":1,"idx":283,"changed":false}
+{"premise":"Човекот сакал да го гледа изгрејсонцето.","choice1":"Отпатувал на север.","choice2":"Станал рано.","question":"effect","label":1,"idx":284,"changed":false}
+{"premise":"Ја свиткав хартијата.","choice1":"Ја рециклирав хартијата.","choice2":"Хартијата се стутка.","question":"effect","label":1,"idx":285,"changed":false}
+{"premise":"Нацијата претрпе природна катастрофа.","choice1":"Лидерите од другите држави формираа сојуз.","choice2":"Лидерите од другите држави пратија хуманитарна помош.","question":"effect","label":1,"idx":286,"changed":false}
+{"premise":"Облеката на момчето се натопи.","choice1":"Излегол од базенот.","choice2":"Паднал во базенот.","question":"cause","label":1,"idx":287,"changed":false}
+{"premise":"Ученикот брзал да ја прочита книгата.","choice1":"Требало да ја врати во библиотеката.","choice2":"Ја позајмил од пријател.","question":"cause","label":0,"idx":288,"changed":false}
+{"premise":"Криминалецот бил егзекутиран.","choice1":"Фрлен е во затвор.","choice2":"Осуден е за убијство.","question":"cause","label":1,"idx":289,"changed":false}
+{"premise":"Сончевата светлина влезе во собата.","choice1":"Ги отворив завесите.","choice2":"Ја отклучив вратата.","question":"cause","label":0,"idx":290,"changed":false}
+{"premise":"Ја повлеков измамничката за коса.","choice1":"Ѝ испадна периката.","choice2":"Оќелави.","question":"effect","label":0,"idx":291,"changed":false}
+{"premise":"Уредникот ја преформулирал реченицата во ракопис.","choice1":"Ракописот му бил интересен.","choice2":"Тврдел дека реченицата е нејасна.","question":"cause","label":1,"idx":292,"changed":false}
+{"premise":"Жената ја откажала сметката на нејзината кредитна картичка.","choice1":"Сфатила дека картичката ѝ ја нема.","choice2":"Сфатила дека картичката е истечена.","question":"cause","label":0,"idx":293,"changed":false}
+{"premise":"Мажот и жената се заљубиле.","choice1":"Се запишале на факултет.","choice2":"Се венчале.","question":"effect","label":1,"idx":294,"changed":false}
+{"premise":"Музиката беше претивка за да се чуе.","choice1":"Додадов глас.","choice2":"Искомпонирав моја песна.","question":"effect","label":0,"idx":295,"changed":false}
+{"premise":"Косата на момчето стрчеше нагоре.","choice1":"Девојката му ја разбушавила.","choice2":"Девојката го повлекла за косата.","question":"cause","label":0,"idx":296,"changed":false}
+{"premise":"Бубачката беше згмечена.","choice1":"Се испрскав со средство за заштита од бубачки.","choice2":"Згазнав на бубачката.","question":"cause","label":1,"idx":297,"changed":false}
+{"premise":"Ги отворив очите.","choice1":"Се разбудив.","choice2":"Се релаксирав.","question":"cause","label":0,"idx":298,"changed":false}
+{"premise":"Ечеше музиката на мојот сосед.","choice1":"Му реков да го намали гласот.","choice2":"Му реков да ми го позајми CD - то.","question":"effect","label":0,"idx":299,"changed":false}
+{"premise":"Семејството на човекот живеело во сиромаштија.","choice1":"Бил штедлив со својата заработка.","choice2":"Заработувал помалку од минималната плата.","question":"cause","label":1,"idx":300,"changed":false}
+{"premise":"Студентот дипломирал на универзитет.от","choice1":"Побарал работа.","choice2":"Пронашол хоби.","question":"effect","label":0,"idx":301,"changed":false}
+{"premise":"Уметникот помешал жолта и сина боја.","choice1":"Бојата се распрскала насекаде.","choice2":"Бојата станала зелена.","question":"effect","label":1,"idx":302,"changed":false}
+{"premise":"Ја променив темата на разговор.","choice1":"Снемав материјал за разговор.","choice2":"Разговорот стана напнат.","question":"cause","label":1,"idx":303,"changed":false}
+{"premise":"Мојот брат беше пуштен од болница.","choice1":"Го примив назад дома.","choice2":"Му го свртев грбот.","question":"effect","label":0,"idx":304,"changed":false}
+{"premise":"Се крена завесата на бината.","choice1":"Почна воведната сцена на претставата.","choice2":"Актерите во претставата ја напуштија сцената.","question":"effect","label":0,"idx":305,"changed":false}
+{"premise":"Заложникот ги прифатил условите на киднаперот.","choice1":"Киднаперот се заканил дека ќе го повреди заложникот.","choice2":"Киднаперот го оставил заложникот сам.","question":"cause","label":0,"idx":306,"changed":false}
+{"premise":"Низ сцената одекна бум.","choice1":"Музичарот чукна со ногата.","choice2":"Музичарот удри по тапанот.","question":"cause","label":1,"idx":307,"changed":false}
+{"premise":"Родителите побрзаа во собата на своето дете.","choice1":"Детето се разбудило вриштејќи од кошмарот.","choice2":"Детето се плашело да погледне под својот кревет.","question":"cause","label":0,"idx":308,"changed":false}
+{"premise":"Жената комуницирала на знаковен јазик.","choice1":"Родена е прерано.","choice2":"Родена е глува.","question":"cause","label":1,"idx":309,"changed":false}
+{"premise":"Сушата го зафатила регионот.","choice1":"Водата станала загадена.","choice2":"Посевите пропаднаа.","question":"effect","label":1,"idx":310,"changed":false}
+{"premise":"Мачката ја бркала птицата.","choice1":"Птицата одлетала.","choice2":"Птицата фатила црв.","question":"effect","label":0,"idx":311,"changed":false}
+{"premise":"Девојката го променила училиштето.","choice1":"Училиштето е затворено на лето.","choice2":"Се преселила во нов град.","question":"cause","label":1,"idx":312,"changed":false}
+{"premise":"Сопственикот на фабриката одбил да им ја подигне платата на работниците.","choice1":"Сопственикот назначи нов управител.","choice2":"Вработените штрајкувале.","question":"effect","label":1,"idx":313,"changed":false}
+{"premise":"Лидерот се спротивставувал на екстремистите низ неговата земја.","choice1":"Екстремистите влијаеле врз него.","choice2":"Екстремистите го убиле.","question":"effect","label":1,"idx":314,"changed":false}
+{"premise":"Одев бос по плажата.","choice1":"Песок ми се заглави меѓу прстите.","choice2":"Брановите удираа на брегот.","question":"effect","label":0,"idx":315,"changed":false}
+{"premise":"Се пробудив сред ноќ и ми беше ладно.","choice1":"Облеков тренерки.","choice2":"Испив чаша вода.","question":"effect","label":0,"idx":316,"changed":false}
+{"premise":"Мајката го замолчила синот.","choice1":"Нејзиниот син се насмевнал.","choice2":"Нејзиниот син лелекал.","question":"cause","label":1,"idx":317,"changed":false}
+{"premise":"Ми се направи дупка на фармерките.","choice1":"Ги закопчав фармерките.","choice2":"Се сопнав на тротоарот.","question":"cause","label":1,"idx":318,"changed":false}
+{"premise":"Момчето носело протези.","choice1":"Добил кариес.","choice2":"Забите му се исправиле.","question":"effect","label":1,"idx":319,"changed":false}
+{"premise":"Вчера вежбав во теретана.","choice1":"Денес се разбудив со воспалени мускули.","choice2":"Денес се разбудив со воспалено грло.","question":"effect","label":0,"idx":320,"changed":false}
+{"premise":"Девојките си шепотеле на масата на време на ручек.","choice1":"Другите ученици седеле на масата за ручек.","choice2":"Другите ученици на масата се чувствувале отфрлено.","question":"effect","label":1,"idx":321,"changed":false}
+{"premise":"Девојчето слетало на трамболината.","choice1":"Таа повторно одскокнала во воздух.","choice2":"Одлучила да проба да направи салто.","question":"effect","label":0,"idx":322,"changed":false}
+{"premise":"Оставив писмо во поштенското сандаче.","choice1":"Поштата го достави писмото.","choice2":"Поштата го убрза процесот за достава на писма.","question":"effect","label":0,"idx":323,"changed":false}
+{"premise":"Коцкарот имал самодоверба.","choice1":"Се кладел во сите свои пари.","choice2":"Се вратил дома без пари.","question":"effect","label":0,"idx":324,"changed":false}
+{"premise":"Шумскиот пожар се ширел.","choice1":"Ветровите станувале посилни.","choice2":"Уапсени се подметнувачите на пожарот.","question":"cause","label":0,"idx":325,"changed":false}
+{"premise":"Детето си го одра коленото.","choice1":"Мајка му го пратила во неговата соба.","choice2":"Мајка му му ставила преврска.","question":"effect","label":1,"idx":326,"changed":false}
+{"premise":"Човекот преживеал смртоносна болест.","choice1":"Го потпишал својот тестамент.","choice2":"Добил трансплантација на орган.","question":"cause","label":1,"idx":327,"changed":false}
+{"premise":"Испив голтка од жешкото кафе.","choice1":"Се гризнав за јазикот.","choice2":"Си го изгорев јазикот.","question":"effect","label":1,"idx":328,"changed":false}
+{"premise":"Уредникот ја отпуштил новинарката.","choice1":"Новинарката избегнувала пристрасност во нејзините приказни.","choice2":"Новинарката пропуштила важен рок.","question":"cause","label":1,"idx":329,"changed":false}
+{"premise":"Се чувствував исцрпено.","choice1":"Спиев цел ден.","choice2":"Учев цел ден.","question":"cause","label":1,"idx":330,"changed":false}
+{"premise":"Докторката му поставила дијагноза на пациентот.","choice1":"Ги препознала неговите симптоми.","choice2":"Му препишала таблети на пациентот.","question":"cause","label":0,"idx":331,"changed":false}
+{"premise":"Си ја изгребав кожата.","choice1":"Беше испотена.","choice2":"Ме чешаше.","question":"cause","label":1,"idx":332,"changed":false}
+{"premise":"На човекот му била извршена итна операција.","choice1":"Изгубил живци.","choice2":"Преживеал срцев удар.","question":"cause","label":1,"idx":333,"changed":false}
+{"premise":"На човекот му излегле мускулите на рацете.","choice1":"Ги стегнал рацете.","choice2":"Ги триеше рацете.","question":"cause","label":0,"idx":334,"changed":false}
+{"premise":"Човекот ги кренал веѓите.","choice1":"Бил изненаден.","choice2":"Се чувствувал обесхрабрено.","question":"cause","label":0,"idx":335,"changed":false}
+{"premise":"Се оправдував за грешката на колегата.","choice1":"Верував дека имаше добри намери.","choice2":"Мислев дека е попаметен.","question":"cause","label":0,"idx":336,"changed":false}
+{"premise":"Човекот престанал да пуши.","choice1":"Почнал да вежба повеќе.","choice2":"Почнал да се буди порано.","question":"effect","label":0,"idx":337,"changed":false}
+{"premise":"Жената го удрила напаѓачот во носот.","choice1":"Телото на напаѓачот останало безживотно.","choice2":"Напаѓачот почнал да крвари.","question":"effect","label":1,"idx":338,"changed":false}
+{"premise":"Стрелката го промаши центарот.","choice1":"Човекот лошо целел.","choice2":"Човекот ја губел играта.","question":"cause","label":0,"idx":339,"changed":false}
+{"premise":"Сопственикот на куќата барал во неговата куќа да дојде истребувач.","choice1":"Нашол глувци во визбата.","choice2":"Имал фарма со мрави во својата соба.","question":"cause","label":0,"idx":340,"changed":false}
+{"premise":"Му предложив на мојот гостин да одиме на вечера.","choice1":"Бев преуморен да готвам било што.","choice2":"Мојот гостин предолго остана кај мене.","question":"cause","label":0,"idx":341,"changed":false}
+{"premise":"Девојката го затекнала својот брат како го чита нејзиниот дневник.","choice1":"Почнала да го крие дневникот.","choice2":"Купила нов дневник.","question":"effect","label":0,"idx":342,"changed":false}
+{"premise":"На жената ѝ недостигале пари за кирија.","choice1":"Работела прекувремено.","choice2":"Дала отказ на работа.","question":"effect","label":0,"idx":343,"changed":false}
+{"premise":"Детето брзо ја повлекло раката.","choice1":"Го допрел жешкиот шпорет.","choice2":"Го погалил кученцето по главата.","question":"cause","label":0,"idx":344,"changed":false}
+{"premise":"Компанијата сакала да го оцени задоволството на купувачите.","choice1":"Им понудилe попуст на новите купувачи.","choice2":"Им пратилe анкета на купувачите.","question":"effect","label":1,"idx":345,"changed":false}
+{"premise":"Дрвениот под се изгребал.","choice1":"Момчето ги фрлило перниците од каучот.","choice2":"Момчето го влечело столот по подот.","question":"cause","label":1,"idx":346,"changed":false}
+{"premise":"Го заштитив моето лице.","choice1":"Мојот непријател ме предизвика.","choice2":"Мојот непријател ја стегна дланката.","question":"cause","label":1,"idx":347,"changed":false}
+{"premise":"Позната скулптура изгорела.","choice1":"Била погодена од молња.","choice2":"Луѓето дојдоа да ѝ се воодушевуваат.","question":"cause","label":0,"idx":348,"changed":false}
+{"premise":"Оставив овошје на масата.","choice1":"Овошјето испушти семе.","choice2":"Муви се насобраа околу овошјето.","question":"effect","label":1,"idx":349,"changed":false}
+{"premise":"Балерината истегнала лигамент.","choice1":"Ги испружила нејзините прсти на нозете.","choice2":"Го свиткала глуждот.","question":"cause","label":1,"idx":350,"changed":false}
+{"premise":"Врвците на детето се одврзале.","choice1":"Научил како да ги врзи.","choice2":"Трчал по игралиштето.","question":"cause","label":1,"idx":351,"changed":false}
+{"premise":"Навлегов во книгата.","choice1":"Ја вратив книгата.","choice2":"Изгубив чувство за време.","question":"effect","label":1,"idx":352,"changed":false}
+{"premise":"Човекот имаше слични верувања како неговите родители.","choice1":"Неговите родители влијаеле на него.","choice2":"Неговите родители се откажале од него.","question":"cause","label":0,"idx":353,"changed":false}
+{"premise":"Автомобилот полека успорил и застанал.","choice1":"Му снемало гориво.","choice2":"Возачот заспал.","question":"cause","label":0,"idx":354,"changed":false}
+{"premise":"Човекот јадел сладолед на сонцето.","choice1":"Сладоледот изгубил вкус.","choice2":"Сладоледот течел од корнетот.","question":"effect","label":1,"idx":355,"changed":false}
+{"premise":"Го закачив уметничкото дело во собата.","choice1":"Тепихот изгледаше валкано.","choice2":"Ѕидовите изгледаа празно.","question":"cause","label":1,"idx":356,"changed":false}
+{"premise":"Си отидов од работа порано.","choice1":"Имав главоболка.","choice2":"Мојот шеф одржа состанок.","question":"cause","label":0,"idx":357,"changed":false}
+{"premise":"Кучето извршило нужда на тепихот.","choice1":"Сопственикот го предупредил кучето.","choice2":"Сопственикот му дал награда на кучето.","question":"effect","label":0,"idx":358,"changed":false}
+{"premise":"Му се извинив на мојот пријател.","choice1":"Мојот пријател ми прости.","choice2":"Мојот пријател се разбесни.","question":"effect","label":0,"idx":359,"changed":false}
+{"premise":"Човекот се истакна во толпата.","choice1":"Носеше ранец.","choice2":"Носеше неонски елек.","question":"cause","label":1,"idx":360,"changed":false}
+{"premise":"Човекот лажеше под заклетва.","choice1":"Тој го заврши своето сведоштво.","choice2":"Тој беше обвинет за лажно сведочење.","question":"effect","label":1,"idx":361,"changed":false}
+{"premise":"Жената ја исфарбала косата.","choice1":"Сакала да го промени имиџот.","choice2":"Сакала да се вклопи.","question":"cause","label":0,"idx":362,"changed":false}
+{"premise":"Имигранти се фатени како незаконски живеат во државата.","choice1":"Нашле работа.","choice2":"Тие се депортирани.","question":"effect","label":1,"idx":363,"changed":false}
+{"premise":"Јавниот говорник кажал шега.","choice1":"Публиката се насмеала.","choice2":"Публиката станала.","question":"effect","label":0,"idx":364,"changed":false}
+{"premise":"Погледнав во сонцето.","choice1":"Сонцето ме заслепи.","choice2":"Сонцето ми ја потемни кожата.","question":"effect","label":0,"idx":365,"changed":false}
+{"premise":"Ми беше досадно.","choice1":"Промрморев.","choice2":"Зевав.","question":"effect","label":1,"idx":366,"changed":false}
+{"premise":"Стекот беше тежок да се исече.","choice1":"Ножот беше тап.","choice2":"Стекот беше суров.","question":"cause","label":0,"idx":367,"changed":false}
+{"premise":"Жената прогласи стечај.","choice1":"Примала алиментација.","choice2":"Ѝ се насобрал голем долг.","question":"cause","label":1,"idx":368,"changed":false}
+{"premise":"Светлата во станот на мојот пријател беа вклучени.","choice1":"Се прашував дали е излезен.","choice2":"Одлучив да го посетам.","question":"effect","label":1,"idx":369,"changed":false}
+{"premise":"Го ставив цветот под носот.","choice1":"Ливчињата од цветот паднаа.","choice2":"Го почувствував мирисот на цветот.","question":"effect","label":1,"idx":370,"changed":false}
+{"premise":"Жената се чувствувала носталгично.","choice1":"Налетала на пријател од детството.","choice2":"Им се развикала на своите деца.","question":"cause","label":0,"idx":371,"changed":false}
+{"premise":"Студентот одолговлекуваше со задачата.","choice1":"Ја предаде порано.","choice2":"Ја предаде недовршена.","question":"effect","label":1,"idx":372,"changed":false}
+{"premise":"Автомобилот ми се расипа.","choice1":"Отидов во трговскиот центар.","choice2":"Се јавив на механичар.","question":"effect","label":1,"idx":373,"changed":false}
+{"premise":"Ја фрлив белешката.","choice1":"Беше анонимна.","choice2":"Беше нечитлива.","question":"cause","label":1,"idx":374,"changed":false}
+{"premise":"Птицата мафташе со крилјата.","choice1":"Снесуваше јајца.","choice2":"Се вивна нагоре.","question":"effect","label":1,"idx":375,"changed":false}
+{"premise":"Паркирав на патеката.","choice1":"Гаражата беше отворена.","choice2":"Гаражата беше полна.","question":"cause","label":1,"idx":376,"changed":false}
+{"premise":"Криминалецот впери пиштол во жртвата.","choice1":"Криминалецот го спушти пиштолот.","choice2":"Жртвата ги крена рацете.","question":"effect","label":1,"idx":377,"changed":false}
+{"premise":"Се радував на викендот.","choice1":"Планирав да одам на погребот на мојот вујко.","choice2":"Планирав да одам на венчавката на мојот пријател.","question":"cause","label":1,"idx":378,"changed":false}
+{"premise":"Изгубив чувство за време.","choice1":"Фантазирав.","choice2":"Ми беше мачно.","question":"cause","label":0,"idx":379,"changed":false}
+{"premise":"Документот се испечати нечитливо.","choice1":"Тонерот во принтерот беше скоро празен.","choice2":"На принтерот му снема хартија.","question":"cause","label":0,"idx":380,"changed":false}
+{"premise":"На стадионот свиреше државната химна.","choice1":"Навивачите се свртеа кон знамето.","choice2":"Навивачите влетаа на теренот.","question":"effect","label":0,"idx":381,"changed":false}
+{"premise":"Сосот имаше благ вкус.","choice1":"Го послужив.","choice2":"Го посолив.","question":"effect","label":1,"idx":382,"changed":false}
+{"premise":"Ставив хартиена крпа на локвата.","choice1":"Крпата ја прими течноста.","choice2":"Локвата остави леплив остаток.","question":"effect","label":0,"idx":383,"changed":false}
+{"premise":"Жената била прекината сред читање на нејзината книга","choice1":"Ја означила страницата.","choice2":"Повторно ја читала книгата.","question":"effect","label":0,"idx":384,"changed":false}
+{"premise":"Авионот наишол на турбуленции.","choice1":"Човекот го зацврстил својот сигурносен појас.","choice2":"Човекот погледнал низ прозорецот.","question":"effect","label":0,"idx":385,"changed":false}
+{"premise":"Момчето се оттргна.","choice1":"Девојката го игнорирала.","choice2":"Девојката го турнала.","question":"cause","label":1,"idx":386,"changed":false}
+{"premise":"Лекарите ѝ дале на пациентката вештачки екстремитет.","choice1":"Ѝ ја ампутирале ногата.","choice2":"Тие ја надгледуваа нејзината виталност.","question":"cause","label":0,"idx":387,"changed":false}
+{"premise":"Момчето ја штипнало девојката за лактот.","choice1":"Таа ги кренала рамениците кон него.","choice2":"Ја повлекла раката подалеку од него.","question":"effect","label":1,"idx":388,"changed":false}
+{"premise":"Го прашав својот пријател за совет.","choice1":"Го ценам неговото мислење.","choice2":"Знаев дека сум во право.","question":"cause","label":0,"idx":389,"changed":false}
+{"premise":"Момчето стапнало во кал.","choice1":"Калта му се залепила за чевлите.","choice2":"Калта го извалкала на лицето.","question":"effect","label":0,"idx":390,"changed":false}
+{"premise":"Во градот паднало многу снег.","choice1":"Училиштата се затвориле. ","choice2":"Луѓето се скриле под земја.","question":"effect","label":0,"idx":391,"changed":false}
+{"premise":"Смената на вработениот завршила.","choice1":"На крајот од работниот ден отишол дома.","choice2":"Се заканил дека ќе ја напушти работата.","question":"effect","label":0,"idx":392,"changed":false}
+{"premise":"Дрвото ја оштетило куќата.","choice1":"Стеблото паднало на кровот.","choice2":"Дрвото го засенувало дворот.","question":"cause","label":0,"idx":393,"changed":false}
+{"premise":"Дрвото се преполовило.","choice1":"Ги наредив дрвата во каминот.","choice2":"Удрив со секира во дрвото.","question":"cause","label":1,"idx":394,"changed":false}
+{"premise":"Семејството и честитало на двојката.","choice1":"Двојката соопштила дека ќе се раздели.","choice2":"Двојката соопштила дека очекуваат бебе.","question":"cause","label":1,"idx":395,"changed":false}
+{"premise":"Девојката му пратила подарок на момчето за св. Валентин.","choice1":"Ѝ се допаѓал.","choice2":"Го бакнала.","question":"cause","label":0,"idx":396,"changed":false}
+{"premise":"Кимнав со главата на изјавата на мојот пријател.","choice1":"Бев збунет.","choice2":"Се согласував со него.","question":"cause","label":1,"idx":397,"changed":false}
+{"premise":"Пријателите фрлаа паричка.","choice1":"Сакаа да најдат компромис.","choice2":"Сакале да донесат исправна одлука.","question":"cause","label":1,"idx":398,"changed":false}
+{"premise":"Тајмерот во кујната се вклучи.","choice1":"Човекот ги ставил намирниците во фрижидерот.","choice2":"Човекот ја извадил пицата од рерната.","question":"effect","label":1,"idx":399,"changed":false}
+{"premise":"Жената си поставила амбициозна цел.","choice1":"Одолговлекувала.","choice2":"Напорно работела.","question":"effect","label":1,"idx":400,"changed":false}
+{"premise":"Богатиот човек починал од старост.","choice1":"Неговиот син влегол во правни проблеми.","choice2":"Неговиот син го наследил неговото богатство.","question":"effect","label":1,"idx":401,"changed":false}
+{"premise":"Жената згазнала на пламенот.","choice1":"Пламенот се угаснал.","choice2":"Од пламенот се појавил чад.","question":"effect","label":0,"idx":402,"changed":false}
+{"premise":"Автомобилот на жената бил во работилницата.","choice1":"Одземена ѝ е возачката дозвола.","choice2":"Имала сообраќајна несреќа.","question":"cause","label":1,"idx":403,"changed":false}
+{"premise":"Го преспав алармот.","choice1":"Направив доручек.","choice2":"Го пропуштив доручекот.","question":"effect","label":1,"idx":404,"changed":false}
+{"premise":"Јавната личност излегла од лимузината.","choice1":"Фотоапаратите блескале во нејзин правец.","choice2":"Нејзиното семјество присуствувало на прес-конференцијата.","question":"effect","label":0,"idx":405,"changed":false}
+{"premise":"Жената се задржала во кадата.","choice1":"Водата во кадата се ладела.","choice2":"Водата во кадата течела преку кадата.","question":"effect","label":0,"idx":406,"changed":false}
+{"premise":"Студентот сакал да ги запознае и другите студенти во кампусот.","choice1":"Се придружил на братството.","choice2":"Дипломирал инженерство.","question":"effect","label":0,"idx":407,"changed":false}
+{"premise":"Ги кренав перниците од каучот.","choice1":"Барав ситни пари.","choice2":"Ја преуредував дневната соба.","question":"cause","label":0,"idx":408,"changed":false}
+{"premise":"Стршленот полетал кон момчето.","choice1":"Момчето побегнало.","choice2":"Момчето набрало цвеќе.","question":"effect","label":0,"idx":409,"changed":false}
+{"premise":"Жената е прогласена за виновна за направен прекршок.","choice1":"Осудена е на општокорисна работа.","choice2":"Одредена ѝ е смртна казна.","question":"effect","label":0,"idx":410,"changed":false}
+{"premise":"Ставив шеќер во жежок чај.","choice1":"Од чајот излегуваше пареа.","choice2":"Шеќерот се растопи.","question":"effect","label":1,"idx":411,"changed":false}
+{"premise":"Ветеранот одеше со куцање.","choice1":"Тој беше повикан во војна.","choice2":"Тој беше повреден во битка.","question":"cause","label":1,"idx":412,"changed":false}
+{"premise":"Криминалецот побегнал од полицијата.","choice1":"Полицијата ѝ помогнала на жртвата.","choice2":"Полицијата го ловела криминалецот.","question":"effect","label":1,"idx":413,"changed":false}
+{"premise":"Лаптопот не сакаше да се вклучи.","choice1":"Ми падна.","choice2":"Го наполнив.","question":"cause","label":0,"idx":414,"changed":false}
+{"premise":"Жената немала место во плакарот.","choice1":"Имала премногу гардероба.","choice2":"Ги здиплила алиштата.","question":"cause","label":0,"idx":415,"changed":false}
+{"premise":"Човекот имаше скршено срце.","choice1":"Неговата жена се породила.","choice2":"Неговата жена го оставила.","question":"cause","label":1,"idx":416,"changed":false}
+{"premise":"Човекот добил диплома.","choice1":"Станал квалифициран за работата што ја сакал.","choice2":"Неговата понуда за работа е повлечена.","question":"effect","label":0,"idx":417,"changed":false}
+{"premise":"Гласот на човекот јасно се слушал низ двораната.","choice1":"Ја поздравил публиката.","choice2":"Зборувал на микрофонот.","question":"cause","label":1,"idx":418,"changed":false}
+{"premise":"Фрлив монета во фонтаната.","choice1":"Монетата потона на дното.","choice2":"Монетата се скрши на пола.","question":"effect","label":0,"idx":419,"changed":false}
+{"premise":"Играчот ја удрил топката кон дупката.","choice1":"Топката влезе во дупката.","choice2":"Топката се вратила кон играчот.","question":"effect","label":0,"idx":420,"changed":false}
+{"premise":"Ја вдишав прашината на таванот.","choice1":"Икав.","choice2":"Кивнав.","question":"effect","label":1,"idx":421,"changed":false}
+{"premise":"Продавачката се јавила на обезбедувањето.","choice1":"Купувачот употребил фалсификувани пари.","choice2":"Купувачот ги оставил вклучени предните светла.","question":"cause","label":0,"idx":422,"changed":false}
+{"premise":"Го фрлив ѓубрето.","choice1":"Ѓубрето засмрде во кујната.","choice2":"Случајно го фрлив списокот за пазарење.","question":"cause","label":0,"idx":423,"changed":false}
+{"premise":"Семејството отишло во зоолошката градина.","choice1":"Децата им се восхитуваа на животните.","choice2":"Децата ги бркале животните.","question":"effect","label":0,"idx":424,"changed":false}
+{"premise":"Човекот гласно дишеше.","choice1":"Бубрезите му откажувале.","choice2":"Белите дробови му биле преоптоварени.","question":"cause","label":1,"idx":425,"changed":false}
+{"premise":"Имав една карта вишок за концертот.","choice1":"Го прашав мојот пријател за насоки до местото на настанот.","choice2":"Го прашав мојот пријател дали сака да оди.","question":"effect","label":1,"idx":426,"changed":false}
+{"premise":"Климата се расипа.","choice1":"Извадив ќебиња.","choice2":"Ги отворив прозорите.","question":"effect","label":1,"idx":427,"changed":false}
+{"premise":"Момчето го болеше грбот.","choice1":"Неговиот ранец беше отворен.","choice2":"Ранецот му беше тежок.","question":"cause","label":1,"idx":428,"changed":false}
+{"premise":"Ѝ купив на мајка ми подарок.","choice1":"Ѝ испеков торта.","choice2":"Ѝ беше роденден.","question":"cause","label":1,"idx":429,"changed":false}
+{"premise":"Нарцисите во градината беа уништени.","choice1":"Пчела го каснала градинарот.","choice2":"Верверичките ископаа дупки.","question":"cause","label":1,"idx":430,"changed":false}
+{"premise":"Запалив кибрит.","choice1":"Пламенот згасна.","choice2":"Чкорчето се запали.","question":"effect","label":1,"idx":431,"changed":false}
+{"premise":"Спорните страни постигнаа договор.","choice1":"Не сакале да се расправаат на суд.","choice2":"Сакале да ги поправат своите односи.","question":"cause","label":0,"idx":432,"changed":false}
+{"premise":"Децата биле испратени во сиропиталиште.","choice1":"Нивните родители починале.","choice2":"Нивните родители ги разгалиле.","question":"cause","label":0,"idx":433,"changed":false}
+{"premise":"Метеор паднал во океанот.","choice1":"Се појавило цунами.","choice2":"Почна да врне град.","question":"effect","label":0,"idx":434,"changed":false}
+{"premise":"Планинарката наишла на отровна змија.","choice1":"Дехидрирала.","choice2":"Испаничила.","question":"effect","label":1,"idx":435,"changed":false}
+{"premise":"Рерната се загреала.","choice1":"Ја вклучив рерната.","choice2":"Го ставив јадењето во рерната.","question":"cause","label":0,"idx":436,"changed":false}
+{"premise":"Стиснав парче лимон.","choice1":"Лимонот мувлоса.","choice2":"Лимонот испрска.","question":"effect","label":1,"idx":437,"changed":false}
+{"premise":"Државата открила нова територија.","choice1":"Државата ја напуштила таа територија.","choice2":"Државата ја колонизирала таа територија.","question":"effect","label":1,"idx":438,"changed":false}
+{"premise":"Чашата падна од масата.","choice1":"Се скрши по целиот под.","choice2":"Паднала во куп од алишта.","question":"effect","label":0,"idx":439,"changed":false}
+{"premise":"Масата се нишаше.","choice1":"Подот беше нерамен.","choice2":"Подот беше лизгав.","question":"cause","label":0,"idx":440,"changed":false}
+{"premise":"Таткото го фатил својот син во лага.","choice1":"Неговиот син ја признал вистината.","choice2":"Таткото му верувал на својот син.","question":"effect","label":0,"idx":441,"changed":false}
+{"premise":"Главата на човекот му пулсирала од болка.","choice1":"Се напил сируп за кашлица.","choice2":"Се напил аспирин.","question":"effect","label":1,"idx":442,"changed":false}
+{"premise":"Возот ја намали брзината.","choice1":"Се приближуваше кон станицата.","choice2":"Доцнеше.","question":"cause","label":0,"idx":443,"changed":false}
+{"premise":"Човекот помина низ терапија.","choice1":"Менталните болести биле чести во неговото семејство.","choice2":"Дијагностицирана му е депресија.","question":"cause","label":1,"idx":444,"changed":false}
+{"premise":"Жената се фатила за грлото.","choice1":"Ја голтнала храната.","choice2":"Се задавила од храната.","question":"cause","label":1,"idx":445,"changed":false}
+{"premise":"Жената имала воспалено грло.","choice1":"Во гласот звучела зарипнато.","choice2":"Зборувала со нагласок.","question":"effect","label":0,"idx":446,"changed":false}
+{"premise":"Кучето го погледало сочниот стек на масата.","choice1":"Му течеле лиги.","choice2":"Легнало.","question":"effect","label":0,"idx":447,"changed":false}
+{"premise":"Бизнисот на жената успеал.","choice1":"Таа ги отпуштила своите вработени.","choice2":"Се збогатила.","question":"effect","label":1,"idx":448,"changed":false}
+{"premise":"Учениците излегоа од училницата.","choice1":"Ѕвонало ѕвончето.","choice2":"Учителот дал домашна задача.","question":"cause","label":0,"idx":449,"changed":false}
+{"premise":"Жената тврдела дека видела дух.","choice1":"Нејзините познаници биле скептични.","choice2":"Нејзините познаници се сочувствуваа со неа.","question":"effect","label":0,"idx":450,"changed":false}
+{"premise":"Човекот изгубил слух.","choice1":"За малку ќе се удавел во океанот.","choice2":"За малку ќе настрадал во експлозија.","question":"cause","label":1,"idx":451,"changed":false}
+{"premise":"Детето ги пушти балоните.","choice1":"Балонот се издиши.","choice2":"Балонот се дигна во воздухот.","question":"effect","label":1,"idx":452,"changed":false}
+{"premise":"Човекот ја изгубил способноста да зборува.","choice1":"Имал мозочен удар.","choice2":"Земал длабок здив.","question":"cause","label":0,"idx":453,"changed":false}
+{"premise":"Жената се сопна на тротоарот.","choice1":"Имаше пукнaтина на цементот.","choice2":"Слушнала како некој ја довикува.","question":"cause","label":0,"idx":454,"changed":false}
+{"premise":"Човекот скокнал како бомба во базенот.","choice1":"Спасувачот скокнал по него.","choice2":"Човекот го испрска спасителот.","question":"effect","label":1,"idx":455,"changed":false}
+{"premise":"Испив антибиотици.","choice1":"Инфекцијата ми помина.","choice2":"Инфекцијата ми се прошири.","question":"effect","label":0,"idx":456,"changed":false}
+{"premise":"На семафорот се вклучи жолто светло.","choice1":"Возачот стисна на кочницата.","choice2":"Возачот затруби.","question":"effect","label":0,"idx":457,"changed":false}
+{"premise":"Пластичниот сад се стопи.","choice1":"Го натопив садот во топла вода.","choice2":"Го ставив садот на врелиот шпорет.","question":"cause","label":1,"idx":458,"changed":false}
+{"premise":"На автомобилот му се направи дупка.","choice1":"Возачот удрил во телефонски столб.","choice2":"Возачот поминал на црвено светло.","question":"cause","label":0,"idx":459,"changed":false}
+{"premise":"Момчето учело цела вечер.","choice1":"Го скокна испитот.","choice2":"Го положи испитот.","question":"effect","label":1,"idx":460,"changed":false}
+{"premise":"Младото момче се држеше за работ од базенот.","choice1":"Се плашеше да научи да плива.","choice2":"Спасувачот беше на должност.","question":"cause","label":0,"idx":461,"changed":false}
+{"premise":"Си ја ставив раката на градите.","choice1":"Го почувствував отчукувањето на моето срце.","choice2":"Работата на срцето се забрза.","question":"effect","label":0,"idx":462,"changed":false}
+{"premise":"Зградата до мојата канцеларија беше во изградба.","choice1":"Канцеларијата ми беше преполна.","choice2":"Во мојата канцеларија беше бучно.","question":"effect","label":1,"idx":463,"changed":false}
+{"premise":"Семејството сакаше да ги запознаe новите соседи.","choice1":"Семејството ги покани соседите на вечера.","choice2":"Семејството ги поздрави соседите од нивниот двор.","question":"effect","label":0,"idx":464,"changed":false}
+{"premise":"Испрска вода од базенот.","choice1":"Пливачот скокна во базенот.","choice2":"Пливачот плуташе во базенот.","question":"cause","label":0,"idx":465,"changed":false}
+{"premise":"Каснав парче лубеница.","choice1":"Случајно каснав семка.","choice2":"Случајно си го потскршив забот.","question":"effect","label":0,"idx":466,"changed":false}
+{"premise":"Момчето се сопна.","choice1":"Јакната му беше откопчана.","choice2":"Врвците на чевлите му беа одврзани.","question":"cause","label":1,"idx":467,"changed":false}
+{"premise":"Жената стави чепчиња за уши.","choice1":"Ѝ сметаше бучавата.","choice2":"Си ги дупнала ушите.","question":"cause","label":0,"idx":468,"changed":false}
+{"premise":"Повторно си го наполнав шишето за вода.","choice1":"Ја испив целата вода во него.","choice2":"Го чував во фрижидерот.","question":"cause","label":0,"idx":469,"changed":false}
+{"premise":"Телевизиската емисија беше цензурирана.","choice1":"Содржеше вулгарности.","choice2":"Имаше комплициран заплет.","question":"cause","label":0,"idx":470,"changed":false}
+{"premise":"Бродот потона.","choice1":"Екипажот се удави.","choice2":"Екипажот налета на пирати.","question":"effect","label":0,"idx":471,"changed":false}
+{"premise":"Детето беше збунето од загатката.","choice1":"Ја реши загатката.","choice2":"Побара помош.","question":"effect","label":1,"idx":472,"changed":false}
+{"premise":"Телефонот заѕвони.","choice1":"Човекот го спушти телефонот.","choice2":"Човекот се јави на телефонот.","question":"effect","label":1,"idx":473,"changed":false}
+{"premise":"Жената гледаше во мене.","choice1":"Ја прегрнав.","choice2":"Ми беше непријатно.","question":"effect","label":1,"idx":474,"changed":false}
+{"premise":"Групата излезе од музејот.","choice1":"Направиja фотографии од изложените експонати.","choice2":"Ги разгледаа сите експонати.","question":"cause","label":1,"idx":475,"changed":false}
+{"premise":"Човекот започна да се расправа со мене.","choice1":"Мојот пријател ме запозна со човекот.","choice2":"Мојот пријател застана на моја страна.","question":"effect","label":1,"idx":476,"changed":false}
+{"premise":"Гумата на мојот велосипед беше издишана.","choice1":"Ја напумпав.","choice2":"Ја променив брзината на велосипедот.","question":"effect","label":0,"idx":477,"changed":false}
+{"premise":"Девојката изгледаше бледо.","choice1":"Нејзиниот татко и прочита приказна.","choice2":"Нејзиниот татко ја допре на челото.","question":"effect","label":1,"idx":478,"changed":false}
+{"premise":"Во пенкалото снема мастило.","choice1":"Употребив молив.","choice2":"Се потпишав.","question":"effect","label":0,"idx":479,"changed":false}
+{"premise":"Човекот беше одбиен за кредит.","choice1":"Беше во долгови.","choice2":"Отвори бизнис.","question":"cause","label":0,"idx":480,"changed":false}
+{"premise":"Девојчето остана дома и не отиде на училиште.","choice1":"Имаше пилешки сипаници.","choice2":"Уживаше да учи математика.","question":"cause","label":0,"idx":481,"changed":false}
+{"premise":"Вреќата за ѓубре беше полна.","choice1":"Ја однесов во контејнер.","choice2":"Ја фрлив во мијалникот.","question":"effect","label":0,"idx":482,"changed":false}
+{"premise":"Го исчистив тепихот со правосмукалка.","choice1":"Мојот цимер истури пунч.","choice2":"Моето куче остави влакна.","question":"cause","label":1,"idx":483,"changed":false}
+{"premise":"Човекот ги изгуби нервите.","choice1":"Го исклучи својот компјутер.","choice2":"Фрли стол на другата страна од собата.","question":"effect","label":1,"idx":484,"changed":false}
+{"premise":"Девојката фрли гранка во оганот.","choice1":"Гранката се запали.","choice2":"Оганот се изгасна.","question":"effect","label":0,"idx":485,"changed":false}
+{"premise":"Човекот излезе од капење.","choice1":"Топлата вода беше потрошена.","choice2":"Не можеше да пронајде крпа.","question":"cause","label":0,"idx":486,"changed":false}
+{"premise":"Родителите сакаа нивните деца да одат на факултет.","choice1":"Ставија пари на страна за школарина.","choice2":"Ги охрабруваа своите деца да играат надвор.","question":"effect","label":0,"idx":487,"changed":false}
+{"premise":"Човекот ги одврза врвците.","choice1":"Чевлите се раширија.","choice2":"Чевлите станаа износени.","question":"effect","label":0,"idx":488,"changed":false}
+{"premise":"Човекот изеде половина од предјадењето.","choice1":"Го стави остатокот во фрижидер.","choice2":"Го зачува рецептот.","question":"effect","label":0,"idx":489,"changed":false}
+{"premise":"Глуждот ми беше потечен.","choice1":"Ставив мраз.","choice2":"Го намачкав со лосион.","question":"effect","label":0,"idx":490,"changed":false}
+{"premise":"Вратата од моја канцеларија беше отворена.","choice1":"Разговарав со мојот колега на мојата работна маса.","choice2":"Го наслушнав разговорот во ходникот.","question":"effect","label":1,"idx":491,"changed":false}
+{"premise":"Морав да чекам во редот.","choice1":"Седнав.","choice2":"Го разлистав списанието.","question":"effect","label":1,"idx":492,"changed":false}
+{"premise":"Човекот замавна кон мувата.","choice1":"Мувата одлета.","choice2":"Мувата остана на местото.","question":"effect","label":0,"idx":493,"changed":false}
+{"premise":"Човекот напиша тестамент.","choice1":"Умираше.","choice2":"Беше вдовец.","question":"cause","label":0,"idx":494,"changed":false}
+{"premise":"Атлетичарот почувствува дека неговиот конкурент му се доближува.","choice1":"Се откажа од трката.","choice2":"Го забрза своето темпо.","question":"effect","label":1,"idx":495,"changed":false}
+{"premise":"Внимателно размислував за проблемот.","choice1":"Побарав совет.","choice2":"Смислив решение.","question":"effect","label":1,"idx":496,"changed":false}
+{"premise":"Патникот одеше по нестабилен мост.","choice1":"Беше уплашен.","choice2":"Беше возбуден.","question":"effect","label":0,"idx":497,"changed":false}
+{"premise":"Човекот очекуваше победа на тимот.","choice1":"Се сретна со пријателите за да го гледаат натпреварот.","choice2":"Се обложуваше со своите пријатели.","question":"effect","label":1,"idx":498,"changed":false}
+{"premise":"Детето не можеше да заспие.","choice1":"Намести аларм.","choice2":"Броеше овци.","question":"effect","label":1,"idx":499,"changed":false}
