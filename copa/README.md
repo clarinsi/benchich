@@ -3,7 +3,7 @@
 Datasets in this benchmark are the following:
 - The COPA part of the Slovenian SuperGLUE translation (http://hdl.handle.net/11356/1380)
 - The COPA-HR dataset (http://hdl.handle.net/11356/1404)
-- The COPA-SR dataset (https://www.clarin.si/info/k-centre/)
+- The COPA-SR dataset (http://hdl.handle.net/11356/1708)
 - The COPA-MK dataset (http://hdl.handle.net/11356/1687)
 
 | model | COPA-SL | COPA-HR | COPA-SR | COPA-SR-LAT | COPA-MK |
