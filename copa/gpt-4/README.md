@@ -1,4 +1,4 @@
-The gpt-3.5-turbo model queried via the OpenAI API
+The gpt-4 model queried via the OpenAI API
 
 The prompt is constructed in the following manner for causes (example in Macedonian):
 
