@@ -46,7 +46,7 @@ Should you wish to contribute an entry, feel free to submit a folder like the [d
     "predictions": [
         {   "train": "what did you train on", # e.g. data/ParlaSent_BCS.jsonl
             "test": "what you evaluated on",# e.g. data/ParlaSent_BCS_test.jsonl
-            "predictions": [....]
+            "predictions": [....] # The length of predictions should match the lentgh of test data
         },
         {   "train": "data/ParlaSent_BCS.jsonl/train_split",
             "test": "data/ParlaSent_BCS.jsonl/dev_split",
@@ -56,9 +56,7 @@ Should you wish to contribute an entry, feel free to submit a folder like the [d
 
 }
 ```
-
-R^2 metric is used to rank different systems.
-
+r^2 metric is used to rank different systems.
 # Currently available systems
 
 | system                                                                 | train               | test                     |   r^2 |
