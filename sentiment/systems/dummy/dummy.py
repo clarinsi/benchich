@@ -13,15 +13,15 @@ mapper = {
 }
 
 train = pd.read_json("../../data/ParlaSent_BCS.jsonl", lines=True)
-train["label"] = [mapper.get(i) for i in train.label]
+train["reconciliation"] = [mapper.get(i) for i in train.reconciliation]
 test = pd.read_json("../../data/ParlaSent_BCS_test.jsonl", lines=True)
-test["label"] = [mapper.get(i) for i in test.label]
+test["annotator1"] = [mapper.get(i) for i in test.annotator1]
 
 train_sentences = train.sentence.values.tolist()
-train_labels = train.label.values.tolist()
+train_labels = train.reconciliation.values.tolist()
 
 test_sentences = test.sentence.values.tolist()
-test_labels = test.label.values.tolist()
+test_labels = test.annotator1.values.tolist()
 
 
 # "Train"
