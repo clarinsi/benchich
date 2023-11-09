@@ -8,7 +8,9 @@ The purpose of this subrepo is gathering and comparison of results, obtained on 
 |:-----------------------------------------------------------------------|:--------------------|:-------------------------|------:|
 | [xlm-r-parlasent](https://huggingface.co/classla/xlm-r-parlasent)      | ParlaSent_BCS.jsonl | ParlaSent_BCS_test.jsonl | 0.615 |
 | [BERTić](https://huggingface.co/classla/bcms-bertic)                   | ParlaSent_BCS.jsonl | ParlaSent_BCS_test.jsonl | 0.612 |
+|XLM-R-SloBERTić                                                         | ParlaSent_BCS.jsonl | ParlaSent_BCS_test.jsonl | 0.607 |
 | XLM-Roberta-Large                                                      | ParlaSent_BCS.jsonl | ParlaSent_BCS_test.jsonl | 0.605 |
+|XLM-R-BERTić                                                            | ParlaSent_BCS.jsonl | ParlaSent_BCS_test.jsonl | 0.601 |
 | [crosloengual-bert](https://huggingface.co/EMBEDDIA/crosloengual-bert) | ParlaSent_BCS.jsonl | ParlaSent_BCS_test.jsonl | 0.537 |
 | XLM-Roberta-Base                                                       | ParlaSent_BCS.jsonl | ParlaSent_BCS_test.jsonl | 0.500 |
 | dummy (mean)                                                           | ParlaSent_BCS.jsonl | ParlaSent_BCS_test.jsonl | -0.12 |
