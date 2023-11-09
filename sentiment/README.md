@@ -15,7 +15,7 @@ The purpose of this subrepo is gathering and comparison of results, obtained on 
 
 # Data
 
-The dataset used for benchmarking is [ParlaSent](https://arxiv.org/abs/2309.09783). It is available on [Clarin.si reposizory](https://www.clarin.si/repository/xmlui/handle/11356/1868) as well as on [HuggingFace dataset hub](https://huggingface.co/datasets/classla/ParlaSent). 
+The dataset used for benchmarking is [ParlaSent](https://arxiv.org/abs/2309.09783). It is available on [Clarin.si repository](https://www.clarin.si/repository/xmlui/handle/11356/1868) as well as on [HuggingFace dataset hub](https://huggingface.co/datasets/classla/ParlaSent). 
 
 The data can be prepared by running [the prepared script](data/dataloader.py) from the `data` directory. This will download the following files:
 
@@ -51,7 +51,7 @@ Should you wish to contribute an entry, feel free to submit a folder like the [d
     "predictions": [
         {   "train": "what did you train on", # e.g. data/ParlaSent_BCS.jsonl
             "test": "what you evaluated on",# e.g. data/ParlaSent_BCS_test.jsonl
-            "predictions": [....] # The length of predictions should match the lentgh of test data
+            "predictions": [....] # The length of predictions should match the lenght of test data
         },
     ]
 
