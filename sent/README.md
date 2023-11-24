@@ -4,6 +4,8 @@ The purpose of this subrepo is gathering and comparison of results, obtained on 
 
 # Benchmark scores
 
+Benchmark scores were calculated only once per system and might differ slightly your results.
+
 | system                                                                 | train               | test                     |   r^2 |
 |:-----------------------------------------------------------------------|:--------------------|:-------------------------|------:|
 | [BERTić](https://huggingface.co/classla/bcms-bertic)                   | ParlaSent_BCS.jsonl | ParlaSent_BCS_test.jsonl | 0.611 |
