@@ -4,7 +4,7 @@ The purpose of this subrepo is gathering and comparison of results, obtained on 
 
 # Benchmark scores
 
-Benchmark scores were calculated only once per system and might differ slightly your results.
+Benchmark scores were calculated only once per system and might differ slightly your results. Finetuning hyperparameters are listed in the json files, where applicable.
 
 | system                                                                 | train               | test                     |   r^2 |
 |:-----------------------------------------------------------------------|:--------------------|:-------------------------|------:|
@@ -53,12 +53,15 @@ Should you wish to contribute an entry, feel free to submit a folder like the [d
 {
     "system": "Pick a name for your system",
     "predictions": [
-        {   "train": "what did you train on", # e.g. data/ParlaSent_BCS.jsonl
+        {   "train": "what you trained on", # e.g. data/ParlaSent_BCS.jsonl
             "test": "what you evaluated on",# e.g. data/ParlaSent_BCS_test.jsonl
             "predictions": [....] # The length of predictions should match the lenght of test data
         },
-    ]
-
+    ],
+    # Additional information, e.g. finetuning params:
+    "model": "EMBEDDIA/crosloengual-bert",
+    "lr": "4e-5",
+    "epoch": "15"
 }
 ```
 r^2 metric will be used to evaluate and compare systems.
