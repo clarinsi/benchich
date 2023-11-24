@@ -1,4 +1,4 @@
-# A dummy script that will load train and test data and predict the average value every time.
+# data preparation
 
 import pandas as pd
 import json
@@ -24,25 +24,44 @@ test_sentences = test.sentence.values.tolist()
 test_labels = test.annotator1.values.tolist()
 
 
-# "Train"
-value_to_return = sum(train_labels) / len(train_labels)
+# Predicting:
 
-# "Evaluate"
-predictions = [value_to_return for i in test_sentences]
+from transformers import (
+    AutoModelForSequenceClassification,
+    TextClassificationPipeline,
+    AutoTokenizer,
+    AutoConfig,
+)
+
+MODEL = "classla/xlm-r-parlasent"
+tokenizer = AutoTokenizer.from_pretrained(MODEL)
+config = AutoConfig.from_pretrained(MODEL)
+model = AutoModelForSequenceClassification.from_pretrained(MODEL)
+
+pipe = TextClassificationPipeline(
+    model=model,
+    tokenizer=tokenizer,
+    return_all_scores=True,
+    task="sentiment_analysis",
+    device=2,
+    function_to_apply="none",
+)
+predictions = pipe(test_sentences)
+predictions = [i[0].get("score") for i in predictions]
 
 from sklearn.metrics import r2_score
 
 result_dict = {
-    "system": "Dummy (mean)",
+    "system": MODEL,
+    "r2_score": r2_score(test_labels, predictions),
     "predictions": [
         {
             "train": "ParlaSent_BCS.jsonl",
             "test": "ParlaSent_BCS_test.jsonl",
-            "r2_score": r2_score(test_labels, predictions),
             "predictions": predictions,
         }
     ],
 }
 
-with open("dummy.predictions.json", "w") as f:
+with open("xml-r-parlasent.predictions.json", "w") as f:
     json.dump(result_dict, f)
