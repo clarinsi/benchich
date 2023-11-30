@@ -14,7 +14,7 @@ Benchmark scores were calculated only once per system and might differ slightly 
 
 ## Standard Croatian
 
-The models are tested on the test split of Croatian linguistic training corpus hr500k 2.0.
+The models are tested on the test split of [Croatian linguistic training corpus hr500k 2.0](http://hdl.handle.net/11356/1792).
 
 | system | train | micro F1 | macro F1 |
 |---|---|---|---|
@@ -26,7 +26,7 @@ The models are tested on the test split of Croatian linguistic training corpus h
 
 ## Non-Standard Croatian
 
-The models are tested on the test split of Croatian Twitter training corpus ReLDI-NormTagNER-hr 3.0.
+The models are tested on the test split of [Croatian Twitter training corpus ReLDI-NormTagNER-hr 3.0](http://hdl.handle.net/11356/1793).
 
 | system | train | micro F1 | macro F1 |
 |---|---|---|---|
@@ -38,7 +38,7 @@ The models are tested on the test split of Croatian Twitter training corpus ReLD
 
 ## Standard Serbian
 
-The models are tested on the test split of Serbian linguistic training corpus SETimes.SR 2.0.
+The models are tested on the test split of [Serbian linguistic training corpus SETimes.SR 2.0](http://hdl.handle.net/11356/1843).
 
 | system | train | micro F1 | macro F1 |
 |---|---|---|---|
@@ -50,7 +50,7 @@ The models are tested on the test split of Serbian linguistic training corpus SE
 
 ## Non-Standard Serbian
 
-The models are tested on the test split of Serbian Twitter training corpus ReLDI-NormTagNER-sr 3.0.
+The models are tested on the test split of [Serbian Twitter training corpus ReLDI-NormTagNER-sr 3.0](http://hdl.handle.net/11356/1794).
 
 | system | train | micro F1 | macro F1 |
 |---|---|---|---|
@@ -63,10 +63,10 @@ The models are tested on the test split of Serbian Twitter training corpus ReLDI
 # Data
 
 The datasets used for benchmarking are:
-- Croatian linguistic training corpus hr500k 2.0
-- Croatian Twitter training corpus ReLDI-NormTagNER-hr 3.0
-- Serbian linguistic training corpus SETimes.SR 2.0
-- Serbian Twitter training corpus ReLDI-NormTagNER-sr 3.0
+- [Croatian linguistic training corpus hr500k 2.0](http://hdl.handle.net/11356/1792)
+- [Croatian Twitter training corpus ReLDI-NormTagNER-hr 3.0](http://hdl.handle.net/11356/1793)
+- [Serbian linguistic training corpus SETimes.SR 2.0](http://hdl.handle.net/11356/1843)
+- [Serbian Twitter training corpus ReLDI-NormTagNER-sr 3.0](http://hdl.handle.net/11356/1794)
 
 The datasets are available in the `data/datasets` directory.
 
