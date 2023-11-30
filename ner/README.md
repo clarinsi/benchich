@@ -16,28 +16,49 @@ Benchmark scores were calculated only once per system and might differ slightly 
 
 The models are tested on the test split of Croatian linguistic training corpus hr500k 2.0.
 
+| system | train | micro F1 | macro F1 |
+|---|---|---|---|
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+
 ## Non-Standard Croatian
 
 The models are tested on the test split of Croatian Twitter training corpus ReLDI-NormTagNER-hr 3.0.
+
+| system | train | micro F1 | macro F1 |
+|---|---|---|---|
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
 
 ## Standard Serbian
 
 The models are tested on the test split of Serbian linguistic training corpus SETimes.SR 2.0.
 
+| system | train | micro F1 | macro F1 |
+|---|---|---|---|
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+
 ## Non-Standard Serbian
 
 The models are tested on the test split of Serbian Twitter training corpus ReLDI-NormTagNER-sr 3.0.
 
-| system                                                                 | train               | test                     |   r^2 |
-|:-----------------------------------------------------------------------|:--------------------|:-------------------------|------:|
-| [BERTić](https://huggingface.co/classla/bcms-bertic)                   | ParlaSent_BCS.jsonl | ParlaSent_BCS_test.jsonl | 0.611 |
-| [xlm-r-parlasent](https://huggingface.co/classla/xlm-r-parlasent)      | ParlaSent_BCS.jsonl | ParlaSent_BCS_test.jsonl | 0.601 |
-| [XLM-R-SloBERTić ](https://huggingface.co/classla/xlm-r-slobertic)     | ParlaSent_BCS.jsonl | ParlaSent_BCS_test.jsonl | 0.578 |
-| [XLM-R-BERTić](https://huggingface.co/classla/xlm-r-bertic)            | ParlaSent_BCS.jsonl | ParlaSent_BCS_test.jsonl | 0.576 |
-| XLM-Roberta-Large                                                      | ParlaSent_BCS.jsonl | ParlaSent_BCS_test.jsonl | 0.547 |
-| [crosloengual-bert](https://huggingface.co/EMBEDDIA/crosloengual-bert) | ParlaSent_BCS.jsonl | ParlaSent_BCS_test.jsonl | 0.547 |
-| XLM-Roberta-Base                                                       | ParlaSent_BCS.jsonl | ParlaSent_BCS_test.jsonl | 0.402 |
-| dummy (mean)                                                           | ParlaSent_BCS.jsonl | ParlaSent_BCS_test.jsonl |     0 |
+| system | train | micro F1 | macro F1 |
+|---|---|---|---|
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
 
 # Data
 
