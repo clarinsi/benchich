@@ -12,6 +12,22 @@ The benchmark consists of 4 datasets, manually-annotated with named entitites:
 
 Benchmark scores were calculated only once per system and might differ slightly your results. Finetuning hyperparameters are listed in the json files, where applicable.
 
+## Standard Croatian
+
+The models are tested on the test split of Croatian linguistic training corpus hr500k 2.0.
+
+## Non-Standard Croatian
+
+The models are tested on the test split of Croatian Twitter training corpus ReLDI-NormTagNER-hr 3.0.
+
+## Standard Serbian
+
+The models are tested on the test split of Serbian linguistic training corpus SETimes.SR 2.0.
+
+## Non-Standard Serbian
+
+The models are tested on the test split of Serbian Twitter training corpus ReLDI-NormTagNER-sr 3.0.
+
 | system                                                                 | train               | test                     |   r^2 |
 |:-----------------------------------------------------------------------|:--------------------|:-------------------------|------:|
 | [BERTić](https://huggingface.co/classla/bcms-bertic)                   | ParlaSent_BCS.jsonl | ParlaSent_BCS_test.jsonl | 0.611 |
@@ -31,10 +47,11 @@ The datasets used for benchmarking are:
 - Serbian linguistic training corpus SETimes.SR 2.0
 - Serbian Twitter training corpus ReLDI-NormTagNER-sr 3.0
 
+The datasets are available in the `data/datasets` directory.
 
-The data can be prepared by:
+They were prepared by:
 1. first downloading the data from the CLARIN.SI repository with the `download_data.sh` script from the `data` directory. This downloads the Croatian and Serbian datasets in a new folder `datasets` inside the directory: ```bash prepare_datasets.sh "s_Croatian" "ns_Croatian" "s_Serbian" "ns_Serbian" > dataset_preparation.log```. You can use all available datasets or define just a couple of them as the arguments (e.g., if you want to download only standard and non-standard Serbian: "s_Serbian" "ns_Serbian")
-2. then running [the prepared script](data/dataloader.py) from the `data` directory. This will prepare the following files:
+2. then running [the prepared script](data/dataloader.py) from the `data` directory. This prepares the following files:
 
 ```
 data
@@ -45,7 +62,7 @@ data
     ├── datasets/reldi-normtagner-sr.conllup_extracted.json
 ```
 
-Extracted JSON files are dictionaries which consist of the following keys:
+The datasets are JSON files - dictionaries which consist of the following keys:
  - "labels" (list of NE labels used in the dataset)
  - "train", "dev", "test" (dataset splits)
 
