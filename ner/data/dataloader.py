@@ -19,7 +19,6 @@ def extract_ner_dataset(scenario):
 	import pandas as pd
 	import numpy as np
 	import json
-	import random
 
 	datasets = {
 	"s_Croatian": {
@@ -55,9 +54,7 @@ def extract_ner_dataset(scenario):
 		sent_id_list = []
 		NER_list = []
 		split_list = []
-		doc_list = []
 
-	# Code for Serbian and Croatian corpora
 		# Collect all important information from the dataset
 		for sentence in sentences:
 			current_sent_id = sentence.metadata["sent_id"]
@@ -78,43 +75,63 @@ def extract_ner_dataset(scenario):
 				NER_list.append(current_ner)
 				split_list.append(current_split)
 
-			# Create a dictionary for all words and all needed information
-			data_dict = {"sentence_id": sent_id_list, "words": word_list, "labels": NER_list, "split": split_list}
+		# Create a dictionary for all words and all needed information
+		data_dict = {"sentence_id": sent_id_list, "words": word_list, "labels": NER_list, "split": split_list}
 
-			# Create a pandas df out of the dictionary
-			df = pd.DataFrame(data_dict)
+		# Create a pandas df out of the dictionary
+		df = pd.DataFrame(data_dict)
 
-			LABELS = list(df.labels.unique())
+		# Add integer ids, needed for classification
+		df["id"] = list(range(len(sent_id_list)))
 
-			# If * is used, change * to O, because this causes errors
-			if "*" in LABELS:
-				LABELS[LABELS.index("*")] = "O"
+		LABELS = list(df.labels.unique())
 
-				df["labels"] = np.where(df["labels"] == "*", "O", df["labels"])
+		# If * is used, change * to O, because this causes errors
+		if "*" in LABELS:
+			LABELS[LABELS.index("*")] = "O"
+
+			df["labels"] = np.where(df["labels"] == "*", "O", df["labels"])
+		
+		if "B-*" in LABELS:
+			# Change also B-* and I-*
+			LABELS[LABELS.index("B-*")] = "B-O"
+
+			df["labels"] = np.where(df["labels"] == "B-*", "B-O", df["labels"])
+		
+		if "I-*" in LABELS:
+			LABELS[LABELS.index("I-*")] = "I-O"
+
+			df["labels"] = np.where(df["labels"] == "I-*", "I-O", df["labels"])
 			
-			# Show the df
-			print(df.head())
-			print("\n")
-			print(df.describe(include="all"))
-			print("\n")
-			print(df.split.value_counts(normalize=True))
-			print("\n")
-			print(df.labels.value_counts(normalize=True))
-			print("\n")
+		# Show the df
+		print(df.head())
+		print("\n")
+		print(df.describe(include="all"))
+		print("\n")
+		print(df.split.value_counts())
+		print("\n")
+		print(df.labels.value_counts())
+		print("\n")
+		print(df.labels.value_counts(normalize=True))
+		print("\n")
 
-			# Save the information in a format that will be used by simpletransformers
+		# Save the information in a format that will be used by simpletransformers
 
-			json_dict = {
-				"labels": LABELS,
-				"train": df[df["split"] == "train"].drop(columns="split").to_dict(),
-				"dev": df[df["split"] == "dev"].drop(columns="split").to_dict(),
-				"test": df[df["split"] == "test"].drop(columns="split").to_dict()
-			}
+		json_dict = {
+			"labels": LABELS,
+			"train": df[df["split"] == "train"].drop(columns="split").to_dict(),
+			"dev": df[df["split"] == "dev"].drop(columns="split").to_dict(),
+			"test": df[df["split"] == "test"].drop(columns="split").to_dict()
+		}
 
-		# Save json as file
-		with open("datasets/{}_extracted.json".format(dataset), "w") as end_file:
-			json.dump(json_dict, end_file, indent=2)
+	# Save json as file
 
-		print("\n\nExtracted dataset saved as datasets/{}_extracted.json".format(dataset))
+	# Remove the suffix from the dataset name
+	dataset_name = dataset[:-len(".conllup")]
+
+	with open("datasets/{}.json".format(dataset_name), "w") as end_file:
+		json.dump(json_dict, end_file, indent=2)
+
+	print("\n\nExtracted dataset saved as datasets/{}.json".format(dataset_name))
 
 extract_ner_dataset(scenario)

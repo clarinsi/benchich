@@ -6,16 +6,20 @@
 dictionary_json='{
     "s_Croatian": {
         "name": "Croatian linguistic training corpus hr500k 2.0",
-        "path":"https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1792/hr500k.conllup"},
+        "path":"https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1792/hr500k.conllup",
+        "conllup": "hr500k.conllup"},
     "ns_Croatian": {
         "name": "Croatian Twitter training corpus ReLDI-NormTagNER-hr 3.0",
-        "path":"https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1793/reldi-normtagner-hr.conllup"},
+        "path":"https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1793/reldi-normtagner-hr.conllup",
+        "conllup": "reldi-normtagner-hr.conllup"},
     "s_Serbian": {
         "name": "Serbian linguistic training corpus SETimes.SR 2.0",
-        "path":"https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1843/set.sr.plus.conllup"},
+        "path":"https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1843/set.sr.plus.conllup",
+        "conllup": "set.sr.plus.conllup"},
     "ns_Serbian": {
         "name": "Serbian Twitter training corpus ReLDI-NormTagNER-sr 3.0",
-        "path":"https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1794/reldi-normtagner-sr.conllup"}
+        "path":"https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1794/reldi-normtagner-sr.conllup",
+        "conllup": "reldi-normtagner-sr.conllup"}
     }'
 
 # Iterate over items in the dataset list
@@ -27,6 +31,9 @@ for dataset in "$@"; do
 
     # Get the argument for the name of the dataset
     name=$(echo "$dictionary_json" | python3 -c "import sys, json; print(json.load(sys.stdin).get('$dataset', {}).get('name', ''))")
+
+    # Get the argument for the conllup file name
+    orig_file=$(echo "$dictionary_json" | python3 -c "import sys, json; print(json.load(sys.stdin).get('$dataset', {}).get('conllup', ''))")
 
     # Get the argument for zipped folder (if it exists)
     downloaded_file=$(echo "$dictionary_json" | python3 -c "import sys, json; print(json.load(sys.stdin).get('$dataset', {}).get('downloaded_file', ''))")
@@ -54,5 +61,11 @@ for dataset in "$@"; do
     fi
 
     cd ..
+
+    python dataloader.py $dataset
+
+    # After creating the JSON file, remove the CONLLUP file
+    rm datasets/$orig_file
+
 done
 

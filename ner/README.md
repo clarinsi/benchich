@@ -70,17 +70,24 @@ The datasets used for benchmarking are:
 
 The datasets are available in the `data/datasets` directory.
 
-They were prepared by:
-1. first downloading the data from the CLARIN.SI repository with the `download_data.sh` script from the `data` directory. This downloads the Croatian and Serbian datasets in a new folder `datasets` inside the directory: ```bash prepare_datasets.sh "s_Croatian" "ns_Croatian" "s_Serbian" "ns_Serbian" > dataset_preparation.log```. You can use all available datasets or define just a couple of them as the arguments (e.g., if you want to download only standard and non-standard Serbian: "s_Serbian" "ns_Serbian")
-2. then running [the prepared script](data/dataloader.py) from the `data` directory. This prepares the following files:
+To prepare the datasets:
+1. move to the `data` directory: `cd data`
+2. download the data from the CLARIN.SI repository with the `download_data.sh` script. This downloads the Croatian and Serbian datasets in a new folder `datasets` inside the directory and converts them from CONLLUP format to JSON, containing only the relevant information for NER:
+```bash download_dataset.sh "s_Croatian" "ns_Croatian" "s_Serbian" "ns_Serbian" > dataset_preparation.log```.
+
+You can use all available datasets or define just a couple of them as the arguments (e.g., if you want to download only standard and non-standard Serbian: "s_Serbian" "ns_Serbian").
+
+See the `data/dataset_preparation.log` for more details on the dataset sizes, label distribution, etc.
+
+This prepares the following files:
 
 ```
 data
 ├── datasets
-    ├── datasets/hr500k.conllup_extracted.json
-    ├── datasets/reldi-normtagner-hr.conllup_extracted.json
-    ├── datasets/set.sr.plus.conllup_extracted.json
-    ├── datasets/reldi-normtagner-sr.conllup_extracted.json
+    ├── datasets/hr500k.json
+    ├── datasets/reldi-normtagner-hr.json
+    ├── datasets/set.sr.plus.json
+    ├── datasets/reldi-normtagner-sr.json
 ```
 
 The datasets are JSON files - dictionaries which consist of the following keys:
@@ -89,6 +96,7 @@ The datasets are JSON files - dictionaries which consist of the following keys:
 
 "train", "dev", "test" are also dictionaries, with the following keys:
  - "sentence_id" (original sentence id)
+ - "id" (integer sentence id - to be used for classification with simple transformers library which does not except strings as ids)
  - "words" (word forms as they appear in the sentence)
  - "labels" (NE labels)
 
@@ -97,9 +105,12 @@ The datasets are JSON files - dictionaries which consist of the following keys:
 
 Dataset sizes in number of instances (words):
 
-| hr500k (HR_s) | reldi-normtagner-hr (HR_ns) | reldi-normtagner-sr (SR_ns) | set.sr.plus (SR_s) |
-|---------------|-----------------------------|-----------------------------|--------------------|
-| 499,635       | 89,855                      | 97,673                      | 92,271             |
+| split     | hr500k (HR_s) | ReLDI-NormTagNER-hr (HR_ns) | set.sr.plus (SR_s) | ReLDI-NormTagNER-sr (SR_ns) |
+|-----------|:-------------:|:---------------------------:|:---------------------------:|:------------------:|
+| train     |  398,681             |     71,967                  |    74,259                   | 73,943             |
+| test      |   51,190            |         8,952                    |       11,421                      |      9,122              |
+| dev       |    49,764           |    8,936                         |      11,993                       |      92,06              |
+| **Total** |   **499,635**            |      **89,855**                       |      **97,673**                       |      **92,271**              |
 
 
 An example of how to use the prepared datasets with the simpletransformers library:
@@ -110,7 +121,7 @@ import json
 import pandas as pd
 
 # Define the path to the dataset
-dataset_path = "datasets/set.sr.plus.conllup_extracted.json"
+dataset_path = "datasets/set.sr.plus.json"
 
 # Load the json file
 with open(dataset_path, "r") as file:
@@ -145,8 +156,8 @@ Should you wish to contribute an entry, feel free to submit a folder like the [d
 {
     "system": "Pick a name for your system",
     "predictions": [
-        {   "train": "what you trained on", # e.g. data/hr500k.conllup_extracted.json-train
-            "test": "what you evaluated on",# e.g. data/hr500k.conllup_extracted.json-test
+        {   "train": "what you trained on", # e.g. data/hr500k.json-train
+            "test": "what you evaluated on",# e.g. data/hr500k.json-test
             "predictions": [....] # The length of predictions should match the length of test data
         },
     ],
