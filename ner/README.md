@@ -18,12 +18,12 @@ The models are tested on the test split of [Croatian linguistic training corpus 
 
 | Model           | Test Dataset   |   Macro F1 |   Micro F1 |   Epochs |   Learning Rate |
 |:----------------|:---------------|-----------:|-----------:|---------:|----------------:|
-| csebert         | hr500k.json    |      0.627 |      0.959 |        4 |           4e-05 |
-| bertic          | hr500k.json    |      0.596 |      0.957 |        9 |           4e-05 |
-| xlm-r-base      | hr500k.json    |      0.568 |      0.955 |        5 |           4e-05 |
-| xlm-r-slobertic | hr500k.json    |      0.158 |      0.922 |        7 |           4e-05 |
-| xlm-r-bertic    | hr500k.json    |      0.096 |      0.917 |        7 |           4e-05 |
-| xlm-r-large     | hr500k.json    |      0.096 |      0.917 |        7 |           4e-05 |
+| [crosloengual-bert](https://huggingface.co/EMBEDDIA/crosloengual-bert)         | hr500k.json    |      0.627 |      0.959 |        4 |           4e-05 |
+| [BERTić](https://huggingface.co/classla/bcms-bertic)          | hr500k.json    |      0.596 |      0.957 |        9 |           4e-05 |
+| [XLM-R-base](https://huggingface.co/xlm-roberta-base)      | hr500k.json    |      0.568 |      0.955 |        5 |           4e-05 |
+| [XLM-R-SloBERTić ](https://huggingface.co/classla/xlm-r-slobertic) | hr500k.json    |      0.158 |      0.922 |        7 |           4e-05 |
+| [XLM-R-BERTić](https://huggingface.co/classla/xlm-r-bertic)    | hr500k.json    |      0.096 |      0.917 |        7 |           4e-05 |
+| [XLM-R-large](https://huggingface.co/xlm-roberta-large)     | hr500k.json    |      0.096 |      0.917 |        7 |           4e-05 |
 
 ## Non-Standard Croatian
 
@@ -31,12 +31,12 @@ The models are tested on the test split of [Croatian Twitter training corpus ReL
 
 | Model           | Test Dataset             |   Macro F1 |   Micro F1 |   Epochs |   Learning Rate |
 |:----------------|:-------------------------|-----------:|-----------:|---------:|----------------:|
-| csebert         | reldi-normtagner-hr.json |      0.517 |      0.956 |        7 |           4e-05 |
-| bertic          | reldi-normtagner-hr.json |      0.495 |      0.961 |       10 |           4e-05 |
-| xlm-r-base      | reldi-normtagner-hr.json |      0.404 |      0.956 |        8 |           4e-05 |
-| xlm-r-bertic    | reldi-normtagner-hr.json |      0.096 |      0.918 |       11 |           4e-05 |
-| xlm-r-large     | reldi-normtagner-hr.json |      0.096 |      0.918 |       11 |           4e-05 |
-| xlm-r-slobertic | reldi-normtagner-hr.json |      0.096 |      0.918 |       11 |           4e-05 |
+| [crosloengual-bert](https://huggingface.co/EMBEDDIA/crosloengual-bert)         | reldi-normtagner-hr.json |      0.517 |      0.956 |        7 |           4e-05 |
+| [BERTić](https://huggingface.co/classla/bcms-bertic)          | reldi-normtagner-hr.json |      0.495 |      0.961 |       10 |           4e-05 |
+| [XLM-R-base](https://huggingface.co/xlm-roberta-base)      | reldi-normtagner-hr.json |      0.404 |      0.956 |        8 |           4e-05 |
+| [XLM-R-BERTić](https://huggingface.co/classla/xlm-r-bertic)    | reldi-normtagner-hr.json |      0.096 |      0.918 |       11 |           4e-05 |
+| [XLM-R-large](https://huggingface.co/xlm-roberta-large)     | reldi-normtagner-hr.json |      0.096 |      0.918 |       11 |           4e-05 |
+| [XLM-R-SloBERTić ](https://huggingface.co/classla/xlm-r-slobertic) | reldi-normtagner-hr.json |      0.096 |      0.918 |       11 |           4e-05 |
 
 ## Standard Serbian
 
@@ -44,12 +44,12 @@ The models are tested on the test split of [Serbian linguistic training corpus S
 
 | Model           | Test Dataset     |   Macro F1 |   Micro F1 |   Epochs |   Learning Rate |
 |:----------------|:-----------------|-----------:|-----------:|---------:|----------------:|
-| bertic          | set.sr.plus.json |      0.618 |      0.954 |       10 |           4e-05 |
-| csebert         | set.sr.plus.json |      0.612 |      0.953 |        9 |           4e-05 |
-| xlm-r-base      | set.sr.plus.json |      0.604 |      0.953 |        6 |           4e-05 |
-| xlm-r-large     | set.sr.plus.json |      0.597 |      0.952 |       13 |           4e-05 |
-| xlm-r-bertic    | set.sr.plus.json |      0.59  |      0.953 |       13 |           4e-05 |
-| xlm-r-slobertic | set.sr.plus.json |      0.094 |      0.881 |       13 |           4e-05 |
+| [BERTić](https://huggingface.co/classla/bcms-bertic)          | set.sr.plus.json |      0.618 |      0.954 |       10 |           4e-05 |
+| [crosloengual-bert](https://huggingface.co/EMBEDDIA/crosloengual-bert)         | set.sr.plus.json |      0.612 |      0.953 |        9 |           4e-05 |
+| [XLM-R-base](https://huggingface.co/xlm-roberta-base)      | set.sr.plus.json |      0.604 |      0.953 |        6 |           4e-05 |
+| [XLM-R-large](https://huggingface.co/xlm-roberta-large)     | set.sr.plus.json |      0.597 |      0.952 |       13 |           4e-05 |
+| [XLM-R-BERTić](https://huggingface.co/classla/xlm-r-bertic)    | set.sr.plus.json |      0.59  |      0.953 |       13 |           4e-05 |
+| [XLM-R-SloBERTić ](https://huggingface.co/classla/xlm-r-slobertic) | set.sr.plus.json |      0.094 |      0.881 |       13 |           4e-05 |
 
 ## Non-Standard Serbian
 
@@ -57,12 +57,12 @@ The models are tested on the test split of [Serbian Twitter training corpus ReLD
 
 | Model           | Test Dataset             |   Macro F1 |   Micro F1 |   Epochs |   Learning Rate |
 |:----------------|:-------------------------|-----------:|-----------:|---------:|----------------:|
-| bertic          | reldi-normtagner-sr.json |      0.518 |      0.976 |       10 |           4e-05 |
-| csebert         | reldi-normtagner-sr.json |      0.512 |      0.973 |        7 |           4e-05 |
-| xlm-r-bertic    | reldi-normtagner-sr.json |      0.512 |      0.975 |       11 |           4e-05 |
-| xlm-r-base      | reldi-normtagner-sr.json |      0.491 |      0.972 |        8 |           4e-05 |
-| xlm-r-large     | reldi-normtagner-sr.json |      0.165 |      0.963 |       11 |           4e-05 |
-| xlm-r-slobertic | reldi-normtagner-sr.json |      0.097 |      0.949 |       11 |           4e-05 |
+| [BERTić](https://huggingface.co/classla/bcms-bertic)          | reldi-normtagner-sr.json |      0.518 |      0.976 |       10 |           4e-05 |
+| [crosloengual-bert](https://huggingface.co/EMBEDDIA/crosloengual-bert)         | reldi-normtagner-sr.json |      0.512 |      0.973 |        7 |           4e-05 |
+| [XLM-R-BERTić](https://huggingface.co/classla/xlm-r-bertic)    | reldi-normtagner-sr.json |      0.512 |      0.975 |       11 |           4e-05 |
+| [XLM-R-base](https://huggingface.co/xlm-roberta-base)      | reldi-normtagner-sr.json |      0.491 |      0.972 |        8 |           4e-05 |
+| [XLM-R-large](https://huggingface.co/xlm-roberta-large)     | reldi-normtagner-sr.json |      0.165 |      0.963 |       11 |           4e-05 |
+| [XLM-R-SloBERTić ](https://huggingface.co/classla/xlm-r-slobertic) | reldi-normtagner-sr.json |      0.097 |      0.949 |       11 |           4e-05 |
 # Data
 
 The datasets used for benchmarking are:
@@ -178,4 +178,4 @@ ALL submission files should be saved in a `submissions` directory inside the sys
 F1 micro and macro scores will be used to evaluate and compare systems.
 
 The submissions are evaluated using the following code with the absolute path to the submissions directory (e.g., ``/home/tajak/NER-recognition/benchich/ner/systems/hugging-face-models/submissions``) as the argument:
-```python evaluate.py "submission-path" > systems/hugging-face-models/evaluation.log```
+```python eval.py "submission-path" > systems/hugging-face-models/evaluation.log```
