@@ -8,11 +8,11 @@ The benchmark consists of 4 datasets, manually-annotated with named entitites:
  - standard Serbian
  - non-standard Serbian
 
-# Benchmark scores
+## Benchmark scores
 
-Benchmark scores were calculated only once per system and might differ slightly your results. Finetuning hyperparameters are listed in the json files, where applicable.
+Benchmark scores were calculated only once per system. Finetuning hyperparameters are listed in the json submission files, where applicable.
 
-## Standard Croatian
+### Standard Croatian
 
 The models are tested on the test split of [Croatian linguistic training corpus hr500k 2.0](http://hdl.handle.net/11356/1792).
 
@@ -25,7 +25,7 @@ The models are tested on the test split of [Croatian linguistic training corpus 
 | [XLM-R-BERTić](https://huggingface.co/classla/xlm-r-bertic)    | hr500k.json    |      0.096 |      0.917 |        7 |           4e-05 |
 | [XLM-R-large](https://huggingface.co/xlm-roberta-large)     | hr500k.json    |      0.096 |      0.917 |        7 |           4e-05 |
 
-## Non-Standard Croatian
+### Non-Standard Croatian
 
 The models are tested on the test split of [Croatian Twitter training corpus ReLDI-NormTagNER-hr 3.0](http://hdl.handle.net/11356/1793).
 
@@ -38,7 +38,7 @@ The models are tested on the test split of [Croatian Twitter training corpus ReL
 | [XLM-R-large](https://huggingface.co/xlm-roberta-large)     | reldi-normtagner-hr.json |      0.096 |      0.918 |       11 |           4e-05 |
 | [XLM-R-SloBERTić ](https://huggingface.co/classla/xlm-r-slobertic) | reldi-normtagner-hr.json |      0.096 |      0.918 |       11 |           4e-05 |
 
-## Standard Serbian
+### Standard Serbian
 
 The models are tested on the test split of [Serbian linguistic training corpus SETimes.SR 2.0](http://hdl.handle.net/11356/1843).
 
@@ -51,7 +51,7 @@ The models are tested on the test split of [Serbian linguistic training corpus S
 | [XLM-R-BERTić](https://huggingface.co/classla/xlm-r-bertic)    | set.sr.plus.json |      0.59  |      0.953 |       13 |           4e-05 |
 | [XLM-R-SloBERTić ](https://huggingface.co/classla/xlm-r-slobertic) | set.sr.plus.json |      0.094 |      0.881 |       13 |           4e-05 |
 
-## Non-Standard Serbian
+### Non-Standard Serbian
 
 The models are tested on the test split of [Serbian Twitter training corpus ReLDI-NormTagNER-sr 3.0](http://hdl.handle.net/11356/1794).
 
@@ -63,7 +63,8 @@ The models are tested on the test split of [Serbian Twitter training corpus ReLD
 | [XLM-R-base](https://huggingface.co/xlm-roberta-base)      | reldi-normtagner-sr.json |      0.491 |      0.972 |        8 |           4e-05 |
 | [XLM-R-large](https://huggingface.co/xlm-roberta-large)     | reldi-normtagner-sr.json |      0.165 |      0.963 |       11 |           4e-05 |
 | [XLM-R-SloBERTić ](https://huggingface.co/classla/xlm-r-slobertic) | reldi-normtagner-sr.json |      0.097 |      0.949 |       11 |           4e-05 |
-# Data
+
+## Data
 
 The datasets used for benchmarking are:
 - [Croatian linguistic training corpus hr500k 2.0](http://hdl.handle.net/11356/1792)
@@ -87,10 +88,10 @@ This prepares the following files:
 ```
 data
 ├── datasets
-    ├── datasets/hr500k.json
-    ├── datasets/reldi-normtagner-hr.json
-    ├── datasets/set.sr.plus.json
-    ├── datasets/reldi-normtagner-sr.json
+    ├── hr500k.json
+    ├── reldi-normtagner-hr.json
+    ├── set.sr.plus.json
+    ├── reldi-normtagner-sr.json
 ```
 
 The datasets are JSON files - dictionaries which consist of the following keys:
@@ -99,7 +100,7 @@ The datasets are JSON files - dictionaries which consist of the following keys:
 
 "train", "dev", "test" are also dictionaries, with the following keys:
  - "sentence_id" (original sentence id)
- - "id" (integer sentence id - to be used for classification with simple transformers library which does not except strings as ids)
+ - "id" (integer sentence id - to be used for classification with Simple Transformers library which does not accept strings as ids)
  - "words" (word forms as they appear in the sentence)
  - "labels" (NE labels)
 
@@ -117,9 +118,8 @@ Dataset sizes in number of instances (words):
 
 
 An example of how to use the prepared datasets with the simpletransformers library:
-To use them for classification with the simpletransformers library:
 
-```
+```python
 import json
 import pandas as pd
 
@@ -135,10 +135,10 @@ train_df = pd.DataFrame(json_dict["train"])
 test_df = pd.DataFrame(json_dict["test"])
 dev_df = pd.DataFrame(json_dict["dev"])
 
-# Change the sentence_ids to integers (!! important - otherwise, the models do not work)
-test_df['sentence_id'] = pd.factorize(test_df['sentence_id'])[0]
-train_df['sentence_id'] = pd.factorize(train_df['sentence_id'])[0]
-dev_df['sentence_id'] = pd.factorize(dev_df['sentence_id'])[0]
+# Use id instead of sentence_ids (ids should not be strings) and discard id column
+for df in [train_df, test_df, dev_df]:
+    df["sentence_id"] = df["id"]
+    df = df.drop(columns=["id"])
 
 # Define the labels
 LABELS = json_dict["labels"]
@@ -149,11 +149,12 @@ print(train_df.head())
 
 ```
 
-Refer to [the demo](systems/dummy/dummy.py) to see an example.
 
-# Contributing to the benchmark
+## Contributing to the benchmark
 
-Should you wish to contribute an entry, feel free to submit a folder like the [dummy](systems/dummy) with or without the code used. The results JSON file name should end with `.predictions.json` and the content should be structured like this:
+Should you wish to contribute an entry, feel free to submit a folder in the [systems](systems) directory with or without the code used (see the submission examples in the directory).
+
+The results JSON file name should end with `.predictions.json` and the content should be structured like this:
 
 ```python
 {
@@ -171,11 +172,13 @@ Should you wish to contribute an entry, feel free to submit a folder like the [d
 }
 ```
 
-ALL submission files should be saved in a `submissions` directory inside the system directory. They will be evaluated against the datasets in the `benchich/ner/data/datasets` directory.
+All submission JSON files should be saved in a `submissions` directory inside the system directory. They will be evaluated against the datasets in the `data/datasets` directory.
 
-# Evaluation
+It is highly encouraged that you also provide additional information about your system in a README file, and that you provide the code used for the classification with the system.
 
-F1 micro and macro scores will be used to evaluate and compare systems.
+## Evaluation
+
+Micro and Macro F1 scores will be used to evaluate and compare systems.
 
 The submissions are evaluated using the following code with the absolute path to the submissions directory (e.g., ``/home/tajak/NER-recognition/benchich/ner/systems/hugging-face-models/submissions``) as the argument:
 ```python eval.py "submission-path" > systems/hugging-face-models/evaluation.log```
