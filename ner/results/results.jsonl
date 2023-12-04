@@ -1,0 +1,194 @@
+[
+  {
+    "Model": "bertic",
+    "Test Dataset": "hr500k.json",
+    "Macro F1": 0.5961512273436668,
+    "Micro F1": 0.9566126196522758,
+    "Epochs": 9,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "xlm-r-bertic",
+    "Test Dataset": "reldi-normtagner-sr.json",
+    "Macro F1": 0.5116124295805491,
+    "Micro F1": 0.9745669809252357,
+    "Epochs": 11,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "bertic",
+    "Test Dataset": "reldi-normtagner-sr.json",
+    "Macro F1": 0.5180045958718247,
+    "Micro F1": 0.9756632317474239,
+    "Epochs": 10,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "bertic",
+    "Test Dataset": "reldi-normtagner-hr.json",
+    "Macro F1": 0.49479107423635166,
+    "Micro F1": 0.9612377122430742,
+    "Epochs": 10,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "xlm-r-slobertic",
+    "Test Dataset": "set.sr.plus.json",
+    "Macro F1": 0.0936938614045702,
+    "Micro F1": 0.8813589002714298,
+    "Epochs": 13,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "bertic",
+    "Test Dataset": "set.sr.plus.json",
+    "Macro F1": 0.6178191659925515,
+    "Micro F1": 0.9540320462306278,
+    "Epochs": 10,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "xlm-r-bertic",
+    "Test Dataset": "hr500k.json",
+    "Macro F1": 0.09565518717449575,
+    "Micro F1": 0.9167220160187537,
+    "Epochs": 7,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "xlm-r-slobertic",
+    "Test Dataset": "hr500k.json",
+    "Macro F1": 0.15769931261386078,
+    "Micro F1": 0.9223871849970697,
+    "Epochs": 7,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "xlm-r-slobertic",
+    "Test Dataset": "reldi-normtagner-sr.json",
+    "Macro F1": 0.09740763650677614,
+    "Micro F1": 0.9494628370971279,
+    "Epochs": 11,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "csebert",
+    "Test Dataset": "hr500k.json",
+    "Macro F1": 0.626628542039597,
+    "Micro F1": 0.9588982223090448,
+    "Epochs": 4,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "xlm-r-bertic",
+    "Test Dataset": "reldi-normtagner-hr.json",
+    "Macro F1": 0.09571902848156562,
+    "Micro F1": 0.9178954423592494,
+    "Epochs": 11,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "xlm-r-large",
+    "Test Dataset": "reldi-normtagner-hr.json",
+    "Macro F1": 0.09571902848156562,
+    "Micro F1": 0.9178954423592494,
+    "Epochs": 11,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "xlm-r-large",
+    "Test Dataset": "reldi-normtagner-sr.json",
+    "Macro F1": 0.1653119234240711,
+    "Micro F1": 0.9625082218811664,
+    "Epochs": 11,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "xlm-r-bertic",
+    "Test Dataset": "set.sr.plus.json",
+    "Macro F1": 0.589845734415796,
+    "Micro F1": 0.9526311181157517,
+    "Epochs": 13,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "xlm-r-large",
+    "Test Dataset": "set.sr.plus.json",
+    "Macro F1": 0.5974272888743365,
+    "Micro F1": 0.9515804220295946,
+    "Epochs": 13,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "xlm-r-base",
+    "Test Dataset": "reldi-normtagner-sr.json",
+    "Macro F1": 0.49078631776562504,
+    "Micro F1": 0.9722648541986406,
+    "Epochs": 8,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "xlm-r-base",
+    "Test Dataset": "hr500k.json",
+    "Macro F1": 0.5682913256280069,
+    "Micro F1": 0.955284235202188,
+    "Epochs": 5,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "xlm-r-large",
+    "Test Dataset": "hr500k.json",
+    "Macro F1": 0.09565518717449575,
+    "Micro F1": 0.9167220160187537,
+    "Epochs": 7,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "csebert",
+    "Test Dataset": "reldi-normtagner-hr.json",
+    "Macro F1": 0.5166983339967672,
+    "Micro F1": 0.9559874888293118,
+    "Epochs": 7,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "csebert",
+    "Test Dataset": "reldi-normtagner-sr.json",
+    "Macro F1": 0.5119908001179704,
+    "Micro F1": 0.9733611050208287,
+    "Epochs": 7,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "csebert",
+    "Test Dataset": "set.sr.plus.json",
+    "Macro F1": 0.6119270800550297,
+    "Micro F1": 0.95324402416601,
+    "Epochs": 9,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "xlm-r-slobertic",
+    "Test Dataset": "reldi-normtagner-hr.json",
+    "Macro F1": 0.09571902848156562,
+    "Micro F1": 0.9178954423592494,
+    "Epochs": 11,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "xlm-r-base",
+    "Test Dataset": "reldi-normtagner-hr.json",
+    "Macro F1": 0.40445691395503564,
+    "Micro F1": 0.9555406613047364,
+    "Epochs": 8,
+    "Learning Rate": 4e-05
+  },
+  {
+    "Model": "xlm-r-base",
+    "Test Dataset": "set.sr.plus.json",
+    "Macro F1": 0.603731396194054,
+    "Micro F1": 0.9528062341301112,
+    "Epochs": 6,
+    "Learning Rate": 4e-05
+  }
+]
