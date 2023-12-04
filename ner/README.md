@@ -154,14 +154,14 @@ print(train_df.head())
 
 Should you wish to contribute an entry, feel free to submit a folder in the [systems](systems) directory with or without the code used (see the submission examples in the directory).
 
-The results JSON file name should end with `.predictions.json` and the content should be structured like this:
+The results JSON file name should start with `submission-` and the content should be structured like this:
 
 ```python
 {
     "system": "Pick a name for your system",
     "predictions": [
-        {   "train": "what you trained on", # e.g. data/hr500k.json-train
-            "test": "what you evaluated on",# e.g. data/hr500k.json-test
+        {   "train": "what you trained on", # e.g. "hr500k.json (train split)"
+            "test": "what you evaluated on",# e.g. "hr500k.json (test split)"
             "predictions": [....] # The length of predictions should match the length of test data
         },
     ],
@@ -172,7 +172,7 @@ The results JSON file name should end with `.predictions.json` and the content s
 }
 ```
 
-All submission JSON files should be saved in a `submissions` directory inside the system directory. They will be evaluated against the datasets in the `data/datasets` directory.
+All submission JSON files should be saved in a `submissions` directory inside the directory for your system. They will be evaluated against the datasets in the `data/datasets` directory.
 
 It is highly encouraged that you also provide additional information about your system in a README file, and that you provide the code used for the classification with the system.
 
