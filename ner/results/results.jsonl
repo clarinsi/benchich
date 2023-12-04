@@ -190,5 +190,101 @@
     "Micro F1": 0.9528062341301112,
     "Epochs": 6,
     "Learning Rate": 4e-05
+  },
+  {
+    "Model": "Naive Bayes",
+    "Test Dataset": "hr500k.json",
+    "Macro F1": 0.04041941775745226,
+    "Micro F1": 0.20230513772221137,
+    "Epochs": null,
+    "Learning Rate": null
+  },
+  {
+    "Model": "Dummy",
+    "Test Dataset": "set.sr.plus.json",
+    "Macro F1": 0.10024197573107149,
+    "Micro F1": 0.7815427720865074,
+    "Epochs": null,
+    "Learning Rate": null
+  },
+  {
+    "Model": "Naive Bayes",
+    "Test Dataset": "set.sr.plus.json",
+    "Macro F1": 0.04934988707886041,
+    "Micro F1": 0.22966465283250154,
+    "Epochs": null,
+    "Learning Rate": null
+  },
+  {
+    "Model": "Dummy",
+    "Test Dataset": "reldi-normtagner-hr.json",
+    "Macro F1": 0.09847504889082363,
+    "Micro F1": 0.8442806076854336,
+    "Epochs": null,
+    "Learning Rate": null
+  },
+  {
+    "Model": "Naive Bayes",
+    "Test Dataset": "reldi-normtagner-hr.json",
+    "Macro F1": 0.03219475093033332,
+    "Micro F1": 0.16923592493297587,
+    "Epochs": null,
+    "Learning Rate": null
+  },
+  {
+    "Model": "Dummy",
+    "Test Dataset": "hr500k.json",
+    "Macro F1": 0.1003139763169553,
+    "Micro F1": 0.8505958194959953,
+    "Epochs": null,
+    "Learning Rate": null
+  },
+  {
+    "Model": "Logistic Regression",
+    "Test Dataset": "hr500k.json",
+    "Macro F1": 0.09565518717449575,
+    "Micro F1": 0.9167220160187537,
+    "Epochs": null,
+    "Learning Rate": null
+  },
+  {
+    "Model": "Logistic Regression",
+    "Test Dataset": "reldi-normtagner-hr.json",
+    "Macro F1": 0.09571902848156562,
+    "Micro F1": 0.9178954423592494,
+    "Epochs": null,
+    "Learning Rate": null
+  },
+  {
+    "Model": "Naive Bayes",
+    "Test Dataset": "reldi-normtagner-sr.json",
+    "Macro F1": 0.03647993202379167,
+    "Micro F1": 0.3162082099026661,
+    "Epochs": null,
+    "Learning Rate": null
+  },
+  {
+    "Model": "Logistic Regression",
+    "Test Dataset": "set.sr.plus.json",
+    "Macro F1": 0.0936938614045702,
+    "Micro F1": 0.8813589002714298,
+    "Epochs": null,
+    "Learning Rate": null
+  },
+  {
+    "Model": "Logistic Regression",
+    "Test Dataset": "reldi-normtagner-sr.json",
+    "Macro F1": 0.09740763650677614,
+    "Micro F1": 0.9494628370971279,
+    "Epochs": null,
+    "Learning Rate": null
+  },
+  {
+    "Model": "Dummy",
+    "Test Dataset": "reldi-normtagner-sr.json",
+    "Macro F1": 0.09976438519590743,
+    "Micro F1": 0.8985967989475993,
+    "Epochs": null,
+    "Learning Rate": null
   }
 ]
