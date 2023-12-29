@@ -81,9 +81,6 @@ def extract_ner_dataset(scenario):
 		# Create a pandas df out of the dictionary
 		df = pd.DataFrame(data_dict)
 
-		# Add integer ids, needed for classification
-		df["id"] = list(range(len(sent_id_list)))
-
 		LABELS = list(df.labels.unique())
 
 		# If * is used, change * to O, because this causes errors
@@ -115,13 +112,24 @@ def extract_ner_dataset(scenario):
 		print(df.labels.value_counts(normalize=True))
 		print("\n")
 
+		# Change the sentence ids to integers which is needed for classification - do it for each split separately
+		df_train = df[df["split"] == "train"].drop(columns="split")
+		df_test = df[df["split"] == "test"].drop(columns="split")
+		df_dev = df[df["split"] == "dev"].drop(columns="split")
+
+		for df in [df_train, df_test, df_dev]:
+			df.reset_index(inplace=True)
+			df["original_id"] = df["sentence_id"]
+			df["sentence_id"] = pd.factorize(df['sentence_id'])[0]
+			df.drop(columns=["index"], inplace=True)
+
 		# Save the information in a format that will be used by simpletransformers
 
 		json_dict = {
 			"labels": LABELS,
-			"train": df[df["split"] == "train"].drop(columns="split").to_dict(),
-			"dev": df[df["split"] == "dev"].drop(columns="split").to_dict(),
-			"test": df[df["split"] == "test"].drop(columns="split").to_dict()
+			"train": df_train.to_dict(),
+			"dev": df_dev.to_dict(),
+			"test": df_test.to_dict()
 		}
 
 	# Save json as file

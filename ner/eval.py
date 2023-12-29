@@ -56,7 +56,7 @@ def testing(true, pred, labels):
 
 
 # Open the jsonl file with all results
-with open("results/results.jsonl", "r") as result_file:
+with open("results/results.json", "r") as result_file:
     results_list = json.load(result_file)
 
 dataset_folder = "data/datasets/"
@@ -111,13 +111,13 @@ for submission_file in submission_files:
             # Add the results to all results
             results_list.append(current_res_dict)
 
-            with open("results/results.jsonl", "w") as new_result_file:
+            with open("results/results.json", "w") as new_result_file:
                 json.dump(results_list, new_result_file, indent = 2)
 
     else:
         print("Error: the following file `{}` is either not a submission file or is incorrectly named - see the `ner/README.md` on how to prepare submission files.")
 
-print("All evaluations completed. The results are added to the `results/results.jsonl` file.")
+print("All evaluations completed. The results are added to the `results/results.json` file.")
 
 # Create a dataframe from all results
 

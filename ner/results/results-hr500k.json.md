@@ -1,11 +1,8 @@
-| Model               | Test Dataset   |   Macro F1 |   Micro F1 |   Epochs |   Learning Rate |
-|:--------------------|:---------------|-----------:|-----------:|---------:|----------------:|
-| csebert             | hr500k.json    |      0.627 |      0.959 |        4 |           4e-05 |
-| bertic              | hr500k.json    |      0.596 |      0.957 |        9 |           4e-05 |
-| xlm-r-base          | hr500k.json    |      0.568 |      0.955 |        5 |           4e-05 |
-| xlm-r-slobertic     | hr500k.json    |      0.158 |      0.922 |        7 |           4e-05 |
-| Dummy               | hr500k.json    |      0.1   |      0.851 |      nan |         nan     |
-| xlm-r-bertic        | hr500k.json    |      0.096 |      0.917 |        7 |           4e-05 |
-| xlm-r-large         | hr500k.json    |      0.096 |      0.917 |        7 |           4e-05 |
-| Logistic Regression | hr500k.json    |      0.096 |      0.917 |      nan |         nan     |
-| Naive Bayes         | hr500k.json    |      0.04  |      0.202 |      nan |         nan     |
+| Model           | Test Dataset   |   Macro F1 |   Micro F1 |   Epochs |   Learning Rate |
+|:----------------|:---------------|-----------:|-----------:|---------:|----------------:|
+| xlm-r-slobertic | hr500k.json    |      0.934 |      0.992 |        7 |           4e-05 |
+| bertic          | hr500k.json    |      0.925 |      0.991 |        9 |           4e-05 |
+| xlm-r-bertic    | hr500k.json    |      0.923 |      0.991 |        7 |           4e-05 |
+| csebert         | hr500k.json    |      0.921 |      0.991 |        4 |           4e-05 |
+| xlm-r-large     | hr500k.json    |      0.921 |      0.991 |        7 |           4e-05 |
+| xlm-r-base      | hr500k.json    |      0.908 |      0.989 |        5 |           4e-05 |

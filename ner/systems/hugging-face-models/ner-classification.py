@@ -36,10 +36,9 @@ for dataset_path in dataset_paths:
     test_df = pd.DataFrame(json_dict["test"])
     dev_df = pd.DataFrame(json_dict["dev"])
 
-    # Use id instead of sentence_ids (ids should not be strings) and discard id column
+    # Drop original_id
     for df in [train_df, test_df, dev_df]:
-        df["sentence_id"] = df["id"]
-        df = df.drop(columns=["id"])
+        df.drop(columns=["original_id"], inplace=True)
 
     # Define the labels
     LABELS = json_dict["labels"]

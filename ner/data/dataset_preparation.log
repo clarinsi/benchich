@@ -1,25 +1,18 @@
 Processing dataset: s_Croatian
 Downloaded 'Croatian linguistic training corpus hr500k 2.0' successfully.
-  sentence_id          words labels split  id
-0   set.hr-s1         Proces      O   dev   0
-1   set.hr-s1  privatizacije      O   dev   1
-2   set.hr-s1             na      O   dev   2
-3   set.hr-s1         Kosovu  B-loc   dev   3
-4   set.hr-s1            pod      O   dev   4
+  sentence_id          words labels split
+0   set.hr-s1         Proces      O   dev
+1   set.hr-s1  privatizacije      O   dev
+2   set.hr-s1             na      O   dev
+3   set.hr-s1         Kosovu  B-loc   dev
+4   set.hr-s1            pod      O   dev
 
 
-        sentence_id   words  labels   split             id
-count        499635  499635  499635  499635  499635.000000
-unique        24763   73456      11       3            NaN
-top     bug.hr-s525       ,       O   train            NaN
-freq            255   26303  462502  398681            NaN
-mean            NaN     NaN     NaN     NaN  249817.000000
-std             NaN     NaN     NaN     NaN  144232.345211
-min             NaN     NaN     NaN     NaN       0.000000
-25%             NaN     NaN     NaN     NaN  124908.500000
-50%             NaN     NaN     NaN     NaN  249817.000000
-75%             NaN     NaN     NaN     NaN  374725.500000
-max             NaN     NaN     NaN     NaN  499634.000000
+        sentence_id   words  labels   split
+count        499635  499635  499635  499635
+unique        24763   73456      11       3
+top     bug.hr-s525       ,       O   train
+freq            255   26303  462502  398681
 
 
 split
@@ -64,26 +57,19 @@ Name: proportion, dtype: float64
 Extracted dataset saved as datasets/hr500k.json
 Processing dataset: ns_Croatian
 Downloaded 'Croatian Twitter training corpus ReLDI-NormTagNER-hr 3.0' successfully.
-            sentence_id    words labels  split  id
-0  344431071296884736.1   Vakula  B-per  train   0
-1  344431071296884736.1    dragi      O  train   1
-2  344431071296884736.1  Drakula  B-per  train   2
-3  344431071296884736.1        ,      O  train   3
-4  344431071296884736.1     kiša      O  train   4
+            sentence_id    words labels  split
+0  344431071296884736.1   Vakula  B-per  train
+1  344431071296884736.1    dragi      O  train
+2  344431071296884736.1  Drakula  B-per  train
+3  344431071296884736.1        ,      O  train
+4  344431071296884736.1     kiša      O  train
 
 
-                 sentence_id  words labels  split            id
-count                  89855  89855  89855  89855  89855.000000
-unique                  7939  27154     11      3           NaN
-top     376456263439507456.1      ,      O  train           NaN
-freq                      39   3224  82575  71967           NaN
-mean                     NaN    NaN    NaN    NaN  44927.000000
-std                      NaN    NaN    NaN    NaN  25939.048556
-min                      NaN    NaN    NaN    NaN      0.000000
-25%                      NaN    NaN    NaN    NaN  22463.500000
-50%                      NaN    NaN    NaN    NaN  44927.000000
-75%                      NaN    NaN    NaN    NaN  67390.500000
-max                      NaN    NaN    NaN    NaN  89854.000000
+                 sentence_id  words labels  split
+count                  89855  89855  89855  89855
+unique                  7939  27154     11      3
+top     376456263439507456.1      ,      O  train
+freq                      39   3224  82575  71967
 
 
 split
@@ -128,26 +114,19 @@ Name: proportion, dtype: float64
 Extracted dataset saved as datasets/reldi-normtagner-hr.json
 Processing dataset: s_Serbian
 Downloaded 'Serbian linguistic training corpus SETimes.SR 2.0' successfully.
-  sentence_id          words labels split  id
-0      set-s1         Proces      O   dev   0
-1      set-s1  privatizacije      O   dev   1
-2      set-s1             na      O   dev   2
-3      set-s1         Kosovu  B-loc   dev   3
-4      set-s1            pod      O   dev   4
+  sentence_id          words labels split
+0      set-s1         Proces      O   dev
+1      set-s1  privatizacije      O   dev
+2      set-s1             na      O   dev
+3      set-s1         Kosovu  B-loc   dev
+4      set-s1            pod      O   dev
 
 
-       sentence_id  words labels  split            id
-count        97673  97673  97673  97673  97673.000000
-unique        4384  19712     10      3           NaN
-top      news-s306      ,      O  train           NaN
-freq            88   4983  86875  74259           NaN
-mean           NaN    NaN    NaN    NaN  48836.000000
-std            NaN    NaN    NaN    NaN  28195.910758
-min            NaN    NaN    NaN    NaN      0.000000
-25%            NaN    NaN    NaN    NaN  24418.000000
-50%            NaN    NaN    NaN    NaN  48836.000000
-75%            NaN    NaN    NaN    NaN  73254.000000
-max            NaN    NaN    NaN    NaN  97672.000000
+       sentence_id  words labels  split
+count        97673  97673  97673  97673
+unique        4384  19712     10      3
+top      news-s306      ,      O  train
+freq            88   4983  86875  74259
 
 
 split
@@ -190,26 +169,19 @@ Name: proportion, dtype: float64
 Extracted dataset saved as datasets/set.sr.plus.json
 Processing dataset: ns_Serbian
 Downloaded 'Serbian Twitter training corpus ReLDI-NormTagNER-sr 3.0' successfully.
-            sentence_id      words labels  split  id
-0  490437095392301056.1  @vukomand  B-per  train   0
-1  490437095392301056.1    Gospođo      O  train   1
-2  490437095392301056.1     Dijana  B-per  train   2
-3  490437095392301056.1       koje      O  train   3
-4  490437095392301056.1     lekove      O  train   4
+            sentence_id      words labels  split
+0  490437095392301056.1  @vukomand  B-per  train
+1  490437095392301056.1    Gospođo      O  train
+2  490437095392301056.1     Dijana  B-per  train
+3  490437095392301056.1       koje      O  train
+4  490437095392301056.1     lekove      O  train
 
 
-                 sentence_id  words labels  split            id
-count                  92271  92271  92271  92271  92271.000000
-unique                  6899  24385     12      3           NaN
-top     501127368661274624.1      ,      O  train           NaN
-freq                      35   4313  87371  73943           NaN
-mean                     NaN    NaN    NaN    NaN  46135.000000
-std                      NaN    NaN    NaN    NaN  26636.487681
-min                      NaN    NaN    NaN    NaN      0.000000
-25%                      NaN    NaN    NaN    NaN  23067.500000
-50%                      NaN    NaN    NaN    NaN  46135.000000
-75%                      NaN    NaN    NaN    NaN  69202.500000
-max                      NaN    NaN    NaN    NaN  92270.000000
+                 sentence_id  words labels  split
+count                  92271  92271  92271  92271
+unique                  6899  24385     12      3
+top     501127368661274624.1      ,      O  train
+freq                      35   4313  87371  73943
 
 
 split
