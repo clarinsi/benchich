@@ -190,5 +190,69 @@
     "Micro F1": 0.9898432711671482,
     "Epochs": 6,
     "Learning Rate": 4e-05
+  },
+  {
+    "Model": "dummy-stratified",
+    "Test Dataset": "hr500k.json",
+    "Macro F1": 0.10040839541384679,
+    "Micro F1": 0.8502832584489158,
+    "Epochs": null,
+    "Learning Rate": null
+  },
+  {
+    "Model": "dummy-stratified",
+    "Test Dataset": "set.sr.plus.json",
+    "Macro F1": 0.10021319281568675,
+    "Micro F1": 0.787058926538832,
+    "Epochs": null,
+    "Learning Rate": null
+  },
+  {
+    "Model": "dummy-most_frequent",
+    "Test Dataset": "hr500k.json",
+    "Macro F1": 0.09565518717449575,
+    "Micro F1": 0.9167220160187537,
+    "Epochs": null,
+    "Learning Rate": null
+  },
+  {
+    "Model": "dummy-most_frequent",
+    "Test Dataset": "reldi-normtagner-hr.json",
+    "Macro F1": 0.09571902848156562,
+    "Micro F1": 0.9178954423592494,
+    "Epochs": null,
+    "Learning Rate": null
+  },
+  {
+    "Model": "dummy-most_frequent",
+    "Test Dataset": "set.sr.plus.json",
+    "Macro F1": 0.0936938614045702,
+    "Micro F1": 0.8813589002714298,
+    "Epochs": null,
+    "Learning Rate": null
+  },
+  {
+    "Model": "dummy-most_frequent",
+    "Test Dataset": "reldi-normtagner-sr.json",
+    "Macro F1": 0.09740763650677614,
+    "Micro F1": 0.9494628370971279,
+    "Epochs": null,
+    "Learning Rate": null
+  },
+  {
+    "Model": "dummy-stratified",
+    "Test Dataset": "reldi-normtagner-sr.json",
+    "Macro F1": 0.098915727060405,
+    "Micro F1": 0.8982679237009428,
+    "Epochs": null,
+    "Learning Rate": null
+  },
+  {
+    "Model": "dummy-stratified",
+    "Test Dataset": "reldi-normtagner-hr.json",
+    "Macro F1": 0.09933340559256841,
+    "Micro F1": 0.846450315589566,
+    "Epochs": null,
+    "Learning Rate": null
   }
 ]

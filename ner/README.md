@@ -24,6 +24,8 @@ The models are tested on the test split of [Croatian linguistic training corpus 
 | [crosloengual-bert](https://huggingface.co/EMBEDDIA/crosloengual-bert)         | hr500k.json    |      0.921 |      0.991 |        4 |           4e-05 |
 | [XLM-R-large](https://huggingface.co/xlm-roberta-large)     | hr500k.json    |      0.921 |      0.991 |        7 |           4e-05 |
 | [XLM-R-base](https://huggingface.co/xlm-roberta-base)      | hr500k.json    |      0.908 |      0.989 |        5 |           4e-05 |
+| dummy-stratified    | hr500k.json    |      0.1   |      0.85  |      nan |         nan     |
+| dummy-most_frequent | hr500k.json    |      0.096 |      0.917 |      nan |         nan     |
 
 ### Non-Standard Croatian
 
@@ -37,6 +39,8 @@ The models are tested on the test split of [Croatian Twitter training corpus ReL
 | [BERTić](https://huggingface.co/classla/bcms-bertic)          | reldi-normtagner-hr.json |      0.787 |      0.981 |       10 |           4e-05 |
 | [XLM-R-large](https://huggingface.co/xlm-roberta-large)     | reldi-normtagner-hr.json |      0.779 |      0.982 |       11 |           4e-05 |
 | [XLM-R-base](https://huggingface.co/xlm-roberta-base)      | reldi-normtagner-hr.json |      0.744 |      0.979 |        8 |           4e-05 |
+| dummy-stratified    | reldi-normtagner-hr.json |      0.099 |      0.846 |      nan |         nan     |
+| dummy-most_frequent | reldi-normtagner-hr.json |      0.096 |      0.918 |      nan |         nan     |
 
 ### Standard Serbian
 
@@ -50,6 +54,9 @@ The models are tested on the test split of [Serbian linguistic training corpus S
 | [crosloengual-bert](https://huggingface.co/EMBEDDIA/crosloengual-bert)         | set.sr.plus.json |      0.931 |      0.992 |        9 |           4e-05 |
 | [BERTić](https://huggingface.co/classla/bcms-bertic)          | set.sr.plus.json |      0.93  |      0.991 |       10 |           4e-05 |
 | [XLM-R-base](https://huggingface.co/xlm-roberta-base)      | set.sr.plus.json |      0.926 |      0.99  |        6 |           4e-05 |
+| dummy-stratified    | set.sr.plus.json |      0.1   |      0.787 |      nan |         nan     |
+| dummy-most_frequent | set.sr.plus.json |      0.094 |      0.881 |      nan |         nan     |
+
 
 
 ### Non-Standard Serbian
@@ -64,6 +71,8 @@ The models are tested on the test split of [Serbian Twitter training corpus ReLD
 | [XLM-R-SloBERTić ](https://huggingface.co/classla/xlm-r-slobertic) | reldi-normtagner-sr.json |      0.796 |      0.988 |       11 |           4e-05 |
 | [XLM-R-base](https://huggingface.co/xlm-roberta-base)      | reldi-normtagner-sr.json |      0.782 |      0.986 |        8 |           4e-05 |
 | [crosloengual-bert](https://huggingface.co/EMBEDDIA/crosloengual-bert)         | reldi-normtagner-sr.json |      0.695 |      0.984 |        7 |           4e-05 |
+| dummy-stratified    | reldi-normtagner-sr.json |      0.099 |      0.898 |      nan |         nan     |
+| dummy-most_frequent | reldi-normtagner-sr.json |      0.097 |      0.949 |      nan |         nan     |
 
 
 ## Data

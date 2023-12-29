@@ -1,0 +1,44 @@
+(398681, 4) (51190, 4) (49764, 4)
+   sentence_id      words labels original_id
+0            0      Kazna      O  set.hr-s36
+1            0  medijskom      O  set.hr-s36
+2            0     mogulu      O  set.hr-s36
+3            0   obnovila      O  set.hr-s36
+4            0   raspravu      O  set.hr-s36
+398681 398681 51190 51190
+Labels: ['O', 'B-loc', 'B-per', 'I-per', 'B-org', 'I-org', 'B-misc', 'I-misc', 'I-loc', 'B-deriv-per', 'I-deriv-per']
+Classification with dummy-stratified on hr500k.json finished.
+Classification with dummy-most_frequent on hr500k.json finished.
+(71967, 4) (8952, 4) (8936, 4)
+   sentence_id    words labels           original_id
+0            0   Vakula  B-per  344431071296884736.1
+1            0    dragi      O  344431071296884736.1
+2            0  Drakula  B-per  344431071296884736.1
+3            0        ,      O  344431071296884736.1
+4            0     kiša      O  344431071296884736.1
+71967 71967 8952 8952
+Labels: ['B-per', 'O', 'B-org', 'B-loc', 'I-org', 'B-misc', 'I-misc', 'I-loc', 'B-deriv-per', 'I-per', 'I-deriv-per']
+Classification with dummy-stratified on reldi-normtagner-hr.json finished.
+Classification with dummy-most_frequent on reldi-normtagner-hr.json finished.
+(73943, 4) (9122, 4) (9206, 4)
+   sentence_id      words labels           original_id
+0            0  @vukomand  B-per  490437095392301056.1
+1            0    Gospođo      O  490437095392301056.1
+2            0     Dijana  B-per  490437095392301056.1
+3            0       koje      O  490437095392301056.1
+4            0     lekove      O  490437095392301056.1
+73943 73943 9122 9122
+Labels: ['B-per', 'O', 'B-deriv-per', 'B-misc', 'I-misc', 'B-org', 'I-org', 'B-loc', 'I-per', 'I-loc', 'B-O', 'I-O']
+Classification with dummy-stratified on reldi-normtagner-sr.json finished.
+Classification with dummy-most_frequent on reldi-normtagner-sr.json finished.
+(74259, 4) (11421, 4) (11993, 4)
+   sentence_id      words labels original_id
+0            0      Kazna      O     set-s36
+1            0  medijskom      O     set-s36
+2            0     mogulu      O     set-s36
+3            0   obnovila      O     set-s36
+4            0     debatu      O     set-s36
+74259 74259 11421 11421
+Labels: ['O', 'B-loc', 'B-per', 'I-per', 'B-org', 'I-org', 'B-misc', 'I-misc', 'I-loc', 'B-deriv-per']
+Classification with dummy-stratified on set.sr.plus.json finished.
+Classification with dummy-most_frequent on set.sr.plus.json finished.

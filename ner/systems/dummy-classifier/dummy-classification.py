@@ -2,16 +2,11 @@ import json
 import pandas as pd
 import os
 from sklearn.dummy import DummyClassifier
-from sklearn.pipeline import make_pipeline
-from sklearn.naive_bayes import ComplementNB
-from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC
-import sklearn.feature_extraction
 
 
 # Get all the datasets in the data/datasets directory
 absolute_path = os.getcwd()
-dataset_path = absolute_path[:-len("systems/dummy")] + "data/datasets/"
+dataset_path = absolute_path[:-len("systems/dummy-classifier")] + "data/datasets/"
 
 datasets = os.listdir(dataset_path)
 
@@ -52,43 +47,22 @@ for dataset_path in dataset_paths:
     labels = list(train_df.labels.unique())
     print("Labels: {}".format(labels))
 
-    # Create a TF-IDF representation of the text
-    def data_iterator(f):
-        for token in f:
-            yield token
+    for strategy in ["stratified", "most_frequent"]:
+        model = f"dummy-{strategy}"
 
-    def tokenizer(txt):
-        """Simple whitespace tokenizer"""
-        return txt.split()
-
-    iterator=data_iterator(X_train)
-    test_iterator=data_iterator(X_test)
-
-    vectorizer=sklearn.feature_extraction.text.TfidfVectorizer(tokenizer=tokenizer,use_idf=True,min_df=0.005)
-
-    d=vectorizer.fit_transform(iterator)
-
-    d_test=vectorizer.transform(test_iterator)
-
-    
-    # Create a pipeline of models that you want to try:
-
-    pipelines=[]
-
-    model_dict = {"Dummy": DummyClassifier(strategy="stratified"), "Naive Bayes": ComplementNB(), "Logistic Regression": LogisticRegression(penalty=None)}#, "SVM": SVC(kernel="linear", C=2)}
-
-    for model, model_name in list(zip(list(model_dict.values()),list(model_dict.keys()))):
-        pipeline=make_pipeline(model)
+        dummy_mf = DummyClassifier(strategy=strategy)
 
         # Train the model
-        pipeline.fit(d, Y_train)
+        dummy_mf.fit(X_train, Y_train)
 
-        # Evaluate the model
-        y_pred=list(pipeline.predict(d_test))
+        #Get the predictions
+        y_pred_mf = dummy_mf.predict(X_test)
+
+        y_pred = list(y_pred_mf)
 
         # Create a json with results
         current_results = {
-            "system": model_name,
+            "system": model,
             "predictions": [
                 {
                 "train": "{} (train split)".format(dataset_name),

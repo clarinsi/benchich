@@ -1,8 +1,10 @@
-| Model           | Test Dataset   |   Macro F1 |   Micro F1 |   Epochs |   Learning Rate |
-|:----------------|:---------------|-----------:|-----------:|---------:|----------------:|
-| xlm-r-slobertic | hr500k.json    |      0.934 |      0.992 |        7 |           4e-05 |
-| bertic          | hr500k.json    |      0.925 |      0.991 |        9 |           4e-05 |
-| xlm-r-bertic    | hr500k.json    |      0.923 |      0.991 |        7 |           4e-05 |
-| csebert         | hr500k.json    |      0.921 |      0.991 |        4 |           4e-05 |
-| xlm-r-large     | hr500k.json    |      0.921 |      0.991 |        7 |           4e-05 |
-| xlm-r-base      | hr500k.json    |      0.908 |      0.989 |        5 |           4e-05 |
+| Model               | Test Dataset   |   Macro F1 |   Micro F1 |   Epochs |   Learning Rate |
+|:--------------------|:---------------|-----------:|-----------:|---------:|----------------:|
+| xlm-r-slobertic     | hr500k.json    |      0.934 |      0.992 |        7 |           4e-05 |
+| bertic              | hr500k.json    |      0.925 |      0.991 |        9 |           4e-05 |
+| xlm-r-bertic        | hr500k.json    |      0.923 |      0.991 |        7 |           4e-05 |
+| csebert             | hr500k.json    |      0.921 |      0.991 |        4 |           4e-05 |
+| xlm-r-large         | hr500k.json    |      0.921 |      0.991 |        7 |           4e-05 |
+| xlm-r-base          | hr500k.json    |      0.908 |      0.989 |        5 |           4e-05 |
+| dummy-stratified    | hr500k.json    |      0.1   |      0.85  |      nan |         nan     |
+| dummy-most_frequent | hr500k.json    |      0.096 |      0.917 |      nan |         nan     |
