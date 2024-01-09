@@ -38,7 +38,7 @@ The models are tested on the test split of [Croatian Twitter training corpus ReL
 | [crosloengual-bert](https://huggingface.co/EMBEDDIA/crosloengual-bert)         | reldi-normtagner-hr.json |      0.789 |      0.981 |        7 |           4e-05 |
 | [BERTić](https://huggingface.co/classla/bcms-bertic)          | reldi-normtagner-hr.json |      0.787 |      0.981 |       10 |           4e-05 |
 | [XLM-R-large](https://huggingface.co/xlm-roberta-large)     | reldi-normtagner-hr.json |      0.779 |      0.982 |       11 |           4e-05 |
-| [XLM-R-base](https://huggingface.co/xlm-roberta-base)      | reldi-normtagner-hr.json |      0.744 |      0.979 |        8 |           4e-05 |
+| [XLM-R-base](https://huggingface.co/xlm-roberta-base)          | reldi-normtagner-hr.json |      0.76  |      0.978 |        8 |           4e-05 |
 | dummy-stratified    | reldi-normtagner-hr.json |      0.099 |      0.846 |      nan |         nan     |
 | dummy-most_frequent | reldi-normtagner-hr.json |      0.096 |      0.918 |      nan |         nan     |
 
@@ -53,7 +53,7 @@ The models are tested on the test split of [Serbian linguistic training corpus S
 | [XLM-R-BERTić](https://huggingface.co/classla/xlm-r-bertic)    | set.sr.plus.json |      0.936 |      0.992 |       13 |           4e-05 |
 | [crosloengual-bert](https://huggingface.co/EMBEDDIA/crosloengual-bert)         | set.sr.plus.json |      0.931 |      0.992 |        9 |           4e-05 |
 | [BERTić](https://huggingface.co/classla/bcms-bertic)          | set.sr.plus.json |      0.93  |      0.991 |       10 |           4e-05 |
-| [XLM-R-base](https://huggingface.co/xlm-roberta-base)      | set.sr.plus.json |      0.926 |      0.99  |        6 |           4e-05 |
+| [XLM-R-base](https://huggingface.co/xlm-roberta-base)      | set.sr.plus.json |      0.918 |      0.99  |        6 |           4e-05 |
 | dummy-stratified    | set.sr.plus.json |      0.1   |      0.787 |      nan |         nan     |
 | dummy-most_frequent | set.sr.plus.json |      0.094 |      0.881 |      nan |         nan     |
 
