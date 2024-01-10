@@ -1,5 +1,5 @@
 # Classification with dummy models
 
 We evaluated the following classifiers:
-- "Dummy": DummyClassifier(strategy="stratified"),
-- "Dummy": DummyClassifier(strategy="most_frequent"),
+- Dummy with "stratified" method: DummyClassifier(strategy="stratified"),
+- Dummy with "most frequent" method: DummyClassifier(strategy="most_frequent"),
