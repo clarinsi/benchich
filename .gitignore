@@ -3,7 +3,5 @@ web/*
 .vscode
 settings.json
 ner/systems/hugging-face-models/ner-classification.ipynb
-ner/systems/hugging-face-models/transformers_classification_run2.log
 ner/systems/hugging-face-models/outputs
 ner/systems/hugging-face-models/runs
-ner/systems/hugging-face-models/ner-classification-multiple-models-retry.py
