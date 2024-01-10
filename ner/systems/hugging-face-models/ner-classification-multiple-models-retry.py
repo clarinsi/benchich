@@ -26,8 +26,8 @@ dataset_paths = [dataset_path + x for x in datasets]
 
 dataset_dict = {x[0]:x[1] for x in list(zip(dataset_paths, datasets))}
 
-# Let's redo only the experiment on set-sr
-for dataset_path in [dataset_paths[3]]:
+# Let's redo only the experiment on reldi-sr
+for dataset_path in [dataset_paths[2]]:
     print(dataset_path)
 
     # Load the json file
@@ -203,8 +203,8 @@ for dataset_path in [dataset_paths[3]]:
         return results
 
     #model_list = ['csebert', 'xlm-r-base', 'xlm-r-large', 'bertic', 'xlm-r-bertic', 'xlm-r-slobertic']
-    # Redo only xlm-r-bertic
-    model_list = ['xlm-r-base']
+    # Redo only certain models
+    model_list = ['csebert', 'xlm-r-base', 'xlm-r-large', 'bertic', 'xlm-r-slobertic']
 
     for model in model_list:
         # Let's do only one run

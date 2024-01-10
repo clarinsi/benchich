@@ -65,12 +65,12 @@ The models are tested on the test split of [Serbian Twitter training corpus ReLD
 
 | Model           | Test Dataset             |   Macro F1 |   Micro F1 |   Epochs |   Learning Rate |
 |:----------------|:-------------------------|-----------:|-----------:|---------:|----------------:|
-| [BERTić](https://huggingface.co/classla/bcms-bertic)          | reldi-normtagner-sr.json |      0.829 |      0.987 |       10 |           4e-05 |
-| [XLM-R-BERTić](https://huggingface.co/classla/xlm-r-bertic)    | reldi-normtagner-sr.json |      0.823 |      0.989 |       11 |           4e-05 |
-| [XLM-R-large](https://huggingface.co/xlm-roberta-large)     | reldi-normtagner-sr.json |      0.798 |      0.986 |       11 |           4e-05 |
-| [XLM-R-SloBERTić ](https://huggingface.co/classla/xlm-r-slobertic) | reldi-normtagner-sr.json |      0.796 |      0.988 |       11 |           4e-05 |
-| [XLM-R-base](https://huggingface.co/xlm-roberta-base)      | reldi-normtagner-sr.json |      0.782 |      0.986 |        8 |           4e-05 |
-| [crosloengual-bert](https://huggingface.co/EMBEDDIA/crosloengual-bert)         | reldi-normtagner-sr.json |      0.695 |      0.984 |        7 |           4e-05 |
+| [XLM-R-BERTić](https://huggingface.co/classla/xlm-r-bertic)        | reldi-normtagner-sr.json |      0.823 |      0.989 |       11 |           4e-05 |
+| [XLM-R-SloBERTić ](https://huggingface.co/classla/xlm-r-slobertic)     | reldi-normtagner-sr.json |      0.803 |      0.987 |       11 |           4e-05 |
+| [BERTić](https://huggingface.co/classla/bcms-bertic)              | reldi-normtagner-sr.json |      0.793 |      0.987 |       10 |           4e-05 |
+| [XLM-R-large](https://huggingface.co/xlm-roberta-large)         | reldi-normtagner-sr.json |      0.788 |      0.986 |       11 |           4e-05 |
+| [XLM-R-base](https://huggingface.co/xlm-roberta-base)          | reldi-normtagner-sr.json |      0.724 |      0.985 |        8 |           4e-05 |
+|  [crosloengual-bert](https://huggingface.co/EMBEDDIA/crosloengual-bert)             | reldi-normtagner-sr.json |      0.72  |      0.986 |        7 |           4e-05 |
 | dummy-stratified    | reldi-normtagner-sr.json |      0.099 |      0.898 |      nan |         nan     |
 | dummy-most_frequent | reldi-normtagner-sr.json |      0.097 |      0.949 |      nan |         nan     |
 
