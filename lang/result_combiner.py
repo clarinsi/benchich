@@ -53,14 +53,21 @@ twitter_X, twitter_y = load_twitter_dataset()
 twitter3_X, twitter3_y = load_twitter_dataset(['bs', 'hr', 'sr'])
 setimes_X, setimes_y = load_setimes_dataset()
 
-p = Path(".")
+#p = Path(".")
+p = Path("systems")
 found_directories = sorted([
     str(i) for i in p.iterdir()
     if i.is_dir() and not str(i).endswith("data")
 ])
-found_predictions = [
-    str(list(Path(i).glob("*.predictions.json"))[0]) for i in found_directories
-]
+#found_predictions = [
+#    str(list(Path(i).glob("*.predictions.json"))[0]) for i in found_directories
+#]
+
+found_predictions = []
+
+for i in found_directories:
+	for x in list(Path(i).glob("*.predictions.json")):
+		found_predictions.append(str(x))
 
 entries = []
 for pred in found_predictions:
