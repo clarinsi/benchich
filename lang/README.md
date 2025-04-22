@@ -48,24 +48,24 @@ Do not insert data below this line!
 |---:|:-----------------------|:---------------|:--------|----------:|----------:|
 |  0 | char_ngram_baseline    | setimes        | setimes |  0.994634 |  0.994571 |
 |  1 | web+NaiveBayes         | web3class      | setimes |  0.956932 |  0.956569 |
-|  2 | clean-char-6gram-web   | web            | setimes |  0.842259 |  0.84582  |
-|  3 | char_ngram_baseline    | twitter3       | setimes |  0.74733  |  0.742671 |
-|  4 | gpt-4o-2024-08-06      | NA (zero-shot) | setimes |  0.605739 |  0.799131 |
-|  5 | gpt-4o-mini-2024-07-18 | NA (zero-shot) | setimes |  0.506134 |  0.669924 |
+|  2 | gpt-4o-2024-08-06      | NA (zero-shot) | setimes |  0.857635 |  0.859935 |
+|  3 | clean-char-6gram-web   | web            | setimes |  0.842259 |  0.84582  |
+|  4 | gpt-4o-mini-2024-07-18 | NA (zero-shot) | setimes |  0.748876 |  0.750271 |
+|  5 | char_ngram_baseline    | twitter3       | setimes |  0.74733  |  0.742671 |
 ## Test data: twitter3
 |    | system                 | train          | test     |   macroF1 |   microF1 |
 |---:|:-----------------------|:---------------|:---------|----------:|----------:|
 |  0 | clean-char-6gram-web   | web            | twitter3 |  0.986409 |  0.991071 |
-|  1 | gpt-4o-mini-2024-07-18 | NA (zero-shot) | twitter3 |  0.962687 |  0.973214 |
+|  1 | gpt-4o-2024-08-06      | NA (zero-shot) | twitter3 |  0.945209 |  0.964286 |
 |  2 | web+NaiveBayes         | web3class      | twitter3 |  0.896819 |  0.946429 |
-|  3 | char_ngram_baseline    | twitter3       | twitter3 |  0.87471  |  0.928571 |
-|  4 | gpt-4o-2024-08-06      | NA (zero-shot) | twitter3 |  0.710421 |  0.964286 |
+|  3 | gpt-4o-mini-2024-07-18 | NA (zero-shot) | twitter3 |  0.886332 |  0.928571 |
+|  4 | char_ngram_baseline    | twitter3       | twitter3 |  0.87471  |  0.928571 |
 |  5 | char_ngram_baseline    | setimes        | twitter3 |  0.672202 |  0.839286 |
 ## Test data: twitter
 |    | system                 | train          | test    |   macroF1 |   microF1 |
 |---:|:-----------------------|:---------------|:--------|----------:|----------:|
-|  0 | gpt-4o-2024-08-06      | NA (zero-shot) | twitter |  0.917331 |  0.95122  |
-|  1 | gpt-4o-mini-2024-07-18 | NA (zero-shot) | twitter |  0.816841 |  0.918699 |
+|  0 | gpt-4o-2024-08-06      | NA (zero-shot) | twitter |  0.915    |  0.943089 |
+|  1 | gpt-4o-mini-2024-07-18 | NA (zero-shot) | twitter |  0.837198 |  0.926829 |
 |  2 | char_ngram_baseline    | twitter        | twitter |  0.731548 |  0.869919 |
 |  3 | clean-char-6gram-web   | web            | twitter |  0.726197 |  0.910569 |
 |  4 | web+NaiveBayes         | web4class      | twitter |  0.681937 |  0.869919 |
